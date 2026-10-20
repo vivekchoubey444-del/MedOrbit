@@ -1,0 +1,65 @@
+[
+  {
+    "file": "assets/data/universities.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": 0,
+    "flags": [],
+    "has_source_metadata": false
+  },
+  {
+    "file": "assets/data/scholarships.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": 0,
+    "flags": [],
+    "has_source_metadata": false
+  },
+  {
+    "file": "assets/data/services.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": 3,
+    "flags": [],
+    "has_source_metadata": false
+  },
+  {
+    "file": "assets/data/navigation.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": 3,
+    "flags": [],
+    "has_source_metadata": false
+  },
+  {
+    "file": "assets/data/site-config.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": null,
+    "flags": [],
+    "has_source_metadata": false
+  },
+  {
+    "file": "assets/data/courses.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": 4,
+    "flags": [],
+    "has_source_metadata": false
+  },
+  {
+    "file": "assets/data/pages.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": 3,
+    "flags": [],
+    "has_source_metadata": false
+  },
+  {
+    "file": "assets/data/colleges.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": 0,
+    "flags": [],
+    "has_source_metadata": false
+  },
+  {
+    "file": "assets/data/jobs.json",
+    "status": "NO_OBVIOUS_PLACEHOLDER",
+    "records": 0,
+    "flags": [],
+    "has_source_metadata": false
+  }
+]

@@ -15,6 +15,8 @@
     "validate:config": "node config/validate-env.js",
     "validate:data": "python3 scripts/validate_data.py",
     "check:secrets": "python3 scripts/check_secrets.py",
-    "check:sql": "python3 scripts/check_sql.py"
+    "check:sql": "python3 scripts/check_sql.py",
+    "data:real": "python3 scripts/real_data_migration.py",
+    "admin:data": "node backend/data-admin-server.js"
   }
 }

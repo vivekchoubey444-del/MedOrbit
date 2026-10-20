@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>MedOrbit | Data Manager</title>
+<style>
+:root{color-scheme:dark;--bg:#101c2c;--panel:#192a40;--gold:#d8bd83;--text:#f2ead9;--muted:#b9c6d5}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(140deg,#101c2c,#253a51,#352d43);color:var(--text);font:16px system-ui,sans-serif;min-height:100vh}
+main{max-width:1000px;margin:auto;padding:28px 18px}h1{color:var(--gold)}.panel{background:var(--panel);border:1px solid #516078;border-radius:16px;padding:20px;margin:18px 0}
+label{display:block;margin:12px 0 6px}input,select,textarea,button{font:inherit;border-radius:8px;padding:11px;width:100%;border:1px solid #65778e;background:#0f1c2d;color:var(--text)}
+textarea{min-height:190px;font-family:ui-monospace,monospace}button{background:var(--gold);color:#172334;font-weight:700;cursor:pointer;margin-top:12px}
+small,.muted{color:var(--muted)}pre{white-space:pre-wrap;overflow-wrap:anywhere}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+</style></head>
+<body><main>
+<h1>MedOrbit Data Manager</h1>
+<p class="muted">Import structured records and collect web search results for review. Only trusted administrators should use this page.</p>
+<section class="panel">
+<h2>Admin access</h2>
+<label for="token">Admin token</label><input id="token" type="password" autocomplete="current-password" placeholder="Paste your ADMIN_TOKEN">
+<small>Keep this secret. Do not commit it to GitHub or place it in public frontend code.</small>
+</section>
+<div class="grid">
+<section class="panel"><h2>Manual JSON import</h2>
+<label for="target">Destination file</label><select id="target">
+<option value="colleges">colleges.json</option><option value="universities">universities.json</option><option value="courses">courses.json</option><option value="scholarships">scholarships.json</option><option value="jobs">jobs.json</option><option value="services">services.json</option></select>
+<label for="file">Upload JSON file</label><input id="file" type="file" accept=".json,application/json">
+<label for="records">Or paste one object or an array of objects</label><textarea id="records" placeholder='[{"id":"unique-id","name":"Verified record","sources":[{"url":"https://official.example"}]}]'></textarea>
+<button id="import">Validate and append</button>
+</section>
+<section class="panel"><h2>Google web search</h2>
+<label for="query">Search query</label><input id="query" placeholder="site:nmc.org.in MBBS college seat matrix">
+<button id="search">Search and save results for review</button>
+<p class="muted">Search results are saved separately; they do not automatically become verified college or fee records.</p>
+</section></div>
+<section class="panel"><h2>Result</h2><pre id="result" aria-live="polite">Ready.</pre></section>
+<script>
+const el=id=>document.getElementById(id);
+async function api(path,body){
+ const r=await fetch(path,{method:"POST",headers:{"Content-Type":"application/json","X-Admin-Token":el("token").value},body:JSON.stringify(body)});
+ const j=await r.json(); if(!r.ok) throw new Error(j.error||"Request failed"); return j;
+}
+function show(x){el("result").textContent=JSON.stringify(x,null,2)}
+el("file").addEventListener("change",async e=>{
+ const f=e.target.files[0]; if(!f)return;
+ if(f.size>2*1024*1024){show({error:"File exceeds 2 MB"});return}
+ el("records").value=await f.text();
+});
+el("import").addEventListener("click",async()=>{
+ try{
+  const raw=JSON.parse(el("records").value);
+  if(!confirm("Append these records to "+el("target").value+". Continue?"))return;
+  show(await api("/api/admin/import",{target:el("target").value,records:raw}));
+ }catch(e){show({error:e.message})}
+});
+el("search").addEventListener("click",async()=>{
+ try{show(await api("/api/admin/google-search",{query:el("query").value}))}
+ catch(e){show({error:e.message})}
+});
+</script></main></body></html>
