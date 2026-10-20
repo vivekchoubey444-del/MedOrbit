@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "dataset": "scholarships",
+  "description": "Scholarships and funding opportunities",
+  "updatedAt": "2026-10-20",
+  "sourcePolicy": "Verify factual, legal, admission, fee and deadline information against official sources before publication.",
+  "items": [],
+  "fields": [
+    "id",
+    "title",
+    "provider",
+    "eligibility",
+    "deadline",
+    "officialUrl",
+    "verifiedAt"
+  ]
+}

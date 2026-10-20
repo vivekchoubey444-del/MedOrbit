@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#162d4d">
+  <title>MEDORBIT Search Test</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: system-ui, sans-serif;
+      background: #edf1f8;
+      color: #162d4d;
+    }
+    main {
+      max-width: 680px;
+      margin: auto;
+      padding: 2rem;
+      border-radius: 18px;
+      background: #fff8eb;
+      border: 1px solid #d6b66c;
+    }
+    input, button {
+      box-sizing: border-box;
+      padding: 12px;
+      font: inherit;
+      border-radius: 8px;
+    }
+    input { width: 70%; }
+    button { cursor: pointer; }
+    a { color: #164e8a; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>MEDORBIT Search</h1>
+    <p>Search courses and guidance pages.</p>
+    <form data-medorbit-search>
+      <label for="q">Search</label>
+      <input id="q" name="q" type="search"
+             placeholder="Try MBBS or NEET" required>
+      <button type="submit">Search</button>
+    </form>
+    <section aria-live="polite" data-search-results></section>
+  </main>
+  <script src="/assets/js/site-search.js" defer></script>
+<script src="/assets/js/data-service.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "dataset": "universities",
+  "description": "University directory",
+  "updatedAt": "2026-10-20",
+  "sourcePolicy": "Verify factual, legal, admission, fee and deadline information against official sources before publication.",
+  "items": [],
+  "fields": [
+    "id",
+    "name",
+    "country",
+    "city",
+    "officialUrl",
+    "source",
+    "verifiedAt"
+  ]
+}

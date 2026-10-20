@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "dataset": "news",
+  "description": "News and announcements",
+  "updatedAt": "2026-10-20",
+  "sourcePolicy": "Verify factual, legal, admission, fee and deadline information against official sources before publication.",
+  "items": [],
+  "fields": [
+    "id",
+    "title",
+    "summary",
+    "publishedAt",
+    "officialUrl",
+    "source"
+  ]
+}

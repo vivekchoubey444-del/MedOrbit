@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "Current repository files",
+  "pages": [
+    {
+      "id": "career/career-options.html",
+      "title": "Career Options | MEDORBIT",
+      "url": "/career/career-options.html",
+      "category": "career",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "career/job-assistance.html",
+      "title": "Job Assistance | MEDORBIT",
+      "url": "/career/job-assistance.html",
+      "category": "career",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "career/jobs.html",
+      "title": "Jobs and Opportunities | MEDORBIT",
+      "url": "/career/jobs.html",
+      "category": "career",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "career/recruitment.html",
+      "title": "Recruitment Services | MEDORBIT",
+      "url": "/career/recruitment.html",
+      "category": "career",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/admission-process.html",
+      "title": "Admission Process | MEDORBIT",
+      "url": "/education/admission-process.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/bams.html",
+      "title": "BAMS Admissions | MEDORBIT",
+      "url": "/education/bams.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/bds.html",
+      "title": "BDS Admissions | MEDORBIT",
+      "url": "/education/bds.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/bums.html",
+      "title": "BUMS Admissions | MEDORBIT",
+      "url": "/education/bums.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/colleges.html",
+      "title": "Colleges and Universities | MEDORBIT",
+      "url": "/education/colleges.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/engineering.html",
+      "title": "Engineering Courses | MEDORBIT",
+      "url": "/education/engineering.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/entrance-exams.html",
+      "title": "Entrance Examinations | MEDORBIT",
+      "url": "/education/entrance-exams.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/management.html",
+      "title": "Management Courses | MEDORBIT",
+      "url": "/education/management.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/mbbs.html",
+      "title": "MBBS Admissions | MEDORBIT",
+      "url": "/education/mbbs.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/nursing.html",
+      "title": "Nursing Courses | MEDORBIT",
+      "url": "/education/nursing.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/paramedical.html",
+      "title": "Paramedical Courses | MEDORBIT",
+      "url": "/education/paramedical.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/pharmacy.html",
+      "title": "Pharmacy Courses | MEDORBIT",
+      "url": "/education/pharmacy.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/scholarships.html",
+      "title": "Scholarships | MEDORBIT",
+      "url": "/education/scholarships.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "education/study-material.html",
+      "title": "Study Materials | MEDORBIT",
+      "url": "/education/study-material.html",
+      "category": "education",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "index.html",
+      "title": "MEDORBIT",
+      "url": "/",
+      "category": ".",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "./frontend/assets/js/app.js",
+        "/assets/js/site-search.js",
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "legal/accessibility.html",
+      "title": "Accessibility | MEDORBIT",
+      "url": "/legal/accessibility.html",
+      "category": "legal",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "legal/cookies.html",
+      "title": "Cookie Policy | MEDORBIT",
+      "url": "/legal/cookies.html",
+      "category": "legal",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "legal/disclaimer.html",
+      "title": "Disclaimer | MEDORBIT",
+      "url": "/legal/disclaimer.html",
+      "category": "legal",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "legal/privacy-policy.html",
+      "title": "Privacy Policy | MEDORBIT",
+      "url": "/legal/privacy-policy.html",
+      "category": "legal",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "legal/terms.html",
+      "title": "Terms and Conditions | MEDORBIT",
+      "url": "/legal/terms.html",
+      "category": "legal",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "pages/about.html",
+      "title": "About MEDORBIT | MEDORBIT",
+      "url": "/pages/about.html",
+      "category": "pages",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "pages/brochures.html",
+      "title": "Brochures and Guides | MEDORBIT",
+      "url": "/pages/brochures.html",
+      "category": "pages",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "pages/index.html",
+      "title": "Education and Courses | MEDORBIT",
+      "url": "/pages/index.html",
+      "category": "pages",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "pages/notifications.html",
+      "title": "Notifications | MEDORBIT",
+      "url": "/pages/notifications.html",
+      "category": "pages",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "pages/search-test.html",
+      "title": "MEDORBIT Search Test",
+      "url": "/pages/search-test.html",
+      "category": "pages",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site-search.js"
+      ]
+    },
+    {
+      "id": "pages/sitemap.html",
+      "title": "Sitemap | MEDORBIT",
+      "url": "/pages/sitemap.html",
+      "category": "pages",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "pages/study-abroad.html",
+      "title": "Study Abroad | MEDORBIT",
+      "url": "/pages/study-abroad.html",
+      "category": "pages",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "public/404.html",
+      "title": "Page Not Found | MEDORBIT",
+      "url": "/public/404.html",
+      "category": "public",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "support/contact.html",
+      "title": "Contact MEDORBIT | MEDORBIT",
+      "url": "/support/contact.html",
+      "category": "support",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "support/faq.html",
+      "title": "Frequently Asked Questions | MEDORBIT",
+      "url": "/support/faq.html",
+      "category": "support",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "support/help-centre.html",
+      "title": "Help Centre | MEDORBIT",
+      "url": "/support/help-centre.html",
+      "category": "support",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    },
+    {
+      "id": "support/request-guidance.html",
+      "title": "Request Guidance | MEDORBIT",
+      "url": "/support/request-guidance.html",
+      "category": "support",
+      "description": "Generated from the current HTML page inventory.",
+      "scriptReferences": [
+        "/assets/js/site.js"
+      ]
+    }
+  ],
+  "javascriptFiles": [
+    "/assets/js/animations.js",
+    "/assets/js/app.js",
+    "/assets/js/config.js",
+    "/assets/js/constants.js",
+    "/assets/js/data-service.js",
+    "/assets/js/navigation.js",
+    "/assets/js/search.js",
+    "/assets/js/site-search.js",
+    "/assets/js/site.js",
+    "/assets/js/utils.js",
+    "/backend/server.js",
+    "/frontend/assets/js/app.js",
+    "/scripts/check-links.js",
+    "/scripts/check-site.js",
+    "/tests/health.test.js"
+  ]
+}
