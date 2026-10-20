@@ -5,6 +5,7 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -12,12 +13,36 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 22
-      - run: npm ci
-      - run: npm run check
-      - run: npm test
-      - run: python3 backend/python/src/main.py
+          node-version: "22"
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Check backend syntax
+        run: npm run check
+
+      - name: Run tests
+        run: npm test
+
+      - name: Check website references
+        run: node scripts/check-links.js
+
+      - name: Check frontend search syntax
+        run: node --check assets/js/site-search.js
+
+      - name: Validate Python starter
+        run: python backend/python/src/main.py
