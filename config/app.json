@@ -1,0 +1,5 @@
+{
+  "name": "MEDORBIT",
+  "environment": "development",
+  "apiPrefix": "/api"
+}

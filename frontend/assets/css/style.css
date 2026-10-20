@@ -1,0 +1,10 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  background: #f2eee4;
+  color: #162d25;
+}
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; }
+main { max-width: 720px; margin: 24px; padding: 48px; border-radius: 24px; background: #e4e9df; }
+h1 { font-size: clamp(2rem, 6vw, 4rem); }
+.eyebrow { color: #8b6d38; letter-spacing: .15em; font-weight: 700; }
