@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-10-20T07:51:04.792036+00:00",
+  "datasets": {
+    "entrance-exams.json": {
+      "catalogue_entries": 15,
+      "new_records_added": 15,
+      "total_records": 15,
+      "backup": null
+    },
+    "hostels.json": {
+      "catalogue_entries": 5,
+      "new_records_added": 5,
+      "total_records": 5,
+      "backup": null
+    },
+    "fees.json": {
+      "catalogue_entries": 10,
+      "new_records_added": 10,
+      "total_records": 10,
+      "backup": null
+    },
+    "documents.json": {
+      "catalogue_entries": 15,
+      "new_records_added": 15,
+      "total_records": 15,
+      "backup": null
+    },
+    "career-options.json": {
+      "catalogue_entries": 31,
+      "new_records_added": 31,
+      "total_records": 31,
+      "backup": null
+    }
+  }
+}
