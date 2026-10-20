@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node backend/server.js",
     "check": "node --check backend/server.js",
-    "test": "node --test"
+    "test": "node --test",
+    "check:site": "node scripts/check-site.js"
   },
   "engines": {
     "node": ">=20"
