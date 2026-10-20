@@ -1,25 +1,62 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#162d25">
-  <title>MEDORBIT</title>
-  <link rel="stylesheet" href="./frontend/assets/css/style.css">
-  <script src="./frontend/assets/js/app.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07172d">
+<meta name="description" content="MedOrbit: education, admissions, resources and career guidance.">
+<title>MedOrbit | Your Future, In Orbit</title>
 <link rel="stylesheet" href="/assets/css/royal-sapphire.css">
-<script src="/assets/js/medorbits-global.js" defer></script>
+<style>
+:root{color-scheme:dark;--bg:#071321;--panel:#102640;--gold:#e8c98b;--text:#f5f2eb;--muted:#afbdcc;--line:#30445a}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 15% 5%,#173957 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.65 system-ui,sans-serif}a{color:inherit;text-decoration:none}button,input{font:inherit}.wrap{width:min(1160px,calc(100% - 32px));margin:auto}.gold{color:var(--gold)}.muted,p{color:var(--muted)}h1,h2,h3{line-height:1.15;letter-spacing:-.035em}h2{font-size:clamp(1.8rem,4vw,2.7rem)}.btn{display:inline-flex;justify-content:center;align-items:center;padding:11px 17px;border:1px solid #46566a;border-radius:12px;font-weight:700;background:#102640;color:var(--text);cursor:pointer}.btn.goldbtn{background:linear-gradient(130deg,#f7e8c2,#d9b76e);color:#15243a;border:0}.header{position:sticky;top:0;z-index:10;background:#071321ed;backdrop-filter:blur(14px);border-bottom:1px solid #25394e}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-size:1.2rem;font-weight:900;letter-spacing:.12em;color:var(--gold)}.brand small{display:block;font-size:.62rem;letter-spacing:.08em;color:#c3cfda}.links{display:flex;align-items:center;gap:20px;font-size:.88rem}.links a:hover{color:var(--gold)}.toggle{display:none}.hero{padding:90px 0 65px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-size:.76rem;font-weight:800}.hero h1{font-size:clamp(2.8rem,6vw,5.1rem);line-height:1.04;margin:18px 0}.hero p{max-width:620px;font-size:1.05rem}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.orb{min-height:330px;border:1px solid #5e563f;border-radius:28px;padding:25px;background:linear-gradient(145deg,#173958,#0a1b2e);display:grid;place-items:center;text-align:center;overflow:hidden}.planet{height:155px;width:155px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-size:3.4rem;color:var(--gold);box-shadow:0 0 0 28px #e8c98b0a,0 0 0 58px #e8c98b08;animation:float 5s ease-in-out infinite}.orb strong{display:block;margin-top:20px;font-size:1.3rem}.search{display:flex;gap:10px;padding:12px;border:1px solid #665c45;background:#102640;border-radius:16px}.search input{flex:1;min-width:0;background:transparent;color:white;border:0;outline:0;padding:8px}.results{display:none;background:#102640;border:1px solid var(--line);padding:14px;border-radius:12px;margin-top:10px}.results a{display:block;padding:8px}.section{padding:75px 0}.alt{background:#0b1d30;border-block:1px solid #203449}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{padding:23px;border-radius:19px;background:linear-gradient(145deg,#142e49,#0d2035);border:1px solid #30445a;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-4px);border-color:var(--gold)}.ico{font-size:1.5rem;color:var(--gold)}.card h3{margin-bottom:8px}.card p{font-size:.9rem}.card a{color:var(--gold);font-weight:700}.coursegrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.course{padding:20px;background:#102640;border:1px solid #30445a;border-radius:16px}.cta{padding:35px;border:1px solid #665c45;border-radius:24px;background:linear-gradient(120deg,#153653,#0d2034);display:flex;align-items:center;justify-content:space-between;gap:20px}.footer{padding:45px 0 22px;background:#050e19;border-top:1px solid #24374b}.footgrid{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:25px}.footer h3{font-size:1rem;color:var(--gold)}.footlinks{display:grid;gap:8px}.footlinks a{font-size:.86rem;color:var(--muted)}.footlinks a:hover{color:var(--gold)}.copyright{border-top:1px solid #26384a;margin-top:30px;padding-top:18px;color:var(--muted);font-size:.8rem}.reveal{animation:appear .8s both}.delay{animation-delay:.18s}@keyframes appear{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}@keyframes float{50%{transform:translateY(-9px) rotate(4deg)}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.coursegrid{grid-template-columns:repeat(2,1fr)}.footgrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:680px){.toggle{display:block;border:1px solid var(--line);background:var(--panel);color:white;border-radius:10px;padding:9px 12px}.links{display:none;position:absolute;top:70px;left:12px;right:12px;padding:16px;background:#0b1d30;border:1px solid var(--line);border-radius:14px;align-items:stretch;flex-direction:column;gap:13px}.links.open{display:flex}.nav .quick{display:none}.hero{padding:60px 0 40px}.grid,.coursegrid{grid-template-columns:1fr}.search{flex-wrap:wrap}.search input{flex-basis:100%}.search .btn{width:100%}.cta{align-items:flex-start;flex-direction:column}.footgrid{grid-template-columns:1fr 1fr}.footer .about{grid-column:1/-1}}@media(max-width:380px){.footgrid{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
-  <main>
-    <p class="eyebrow">MEDORBIT PLATFORM</p>
-    <h1>Build something meaningful.</h1>
-    <p>One foundation for web, Python, Java and C++ projects.</p>
-    <p id="status">Checking application…</p>
-  </main>
-
-<script src="/assets/js/site-search.js" defer></script>
-<script src="/assets/js/site.js" defer></script>
-<script src="/assets/js/data-service.js" defer></script>
+<header class="header"><div class="wrap nav">
+<a class="brand" href="/">M <span style="color:var(--text)">EDORBIT</span><small>EDUCATION · CAREERS · GROWTH</small></a>
+<nav class="links" id="nav"><a href="#explore">Explore</a><a href="#courses">Courses</a><a href="#services">Services</a><a href="/pages/pdf-library.html">PDF library</a><a href="/pages/latest-releases.html">Latest releases</a><a href="/pages/help-centre.html">Help centre</a><a href="/auth/login.html">My account</a></nav>
+<div style="display:flex;gap:8px;align-items:center"><a class="btn quick" href="/auth/login.html">Login</a><a class="btn goldbtn" href="/auth/register.html">Register ↗</a><button class="toggle" id="toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div class="reveal"><div class="eyebrow">A smarter way forward</div><h1>Your ambition.<br><span class="gold">Your next orbit.</span></h1><p>Discover courses, colleges, admissions, scholarships, learning resources and career opportunities — organized to help you plan your next step.</p><div class="actions"><a class="btn goldbtn" href="#explore">Explore opportunities ↗</a><a class="btn" href="/auth/register.html">Create account</a></div><p>✦ Education discovery · Admission guidance · Career growth</p></div>
+<div class="orb reveal delay"><div><div class="planet">M</div><strong>Discover your possibilities</strong><p>Explore. Prepare. Progress.</p></div></div>
+</div></section>
+<section class="wrap" aria-label="Search"><form class="search" id="search"><span class="ico">⌕</span><input id="q" type="search" placeholder="Search courses, colleges, scholarships, PDFs or careers..." aria-label="Search MedOrbit"><button class="btn goldbtn">Search ↗</button></form><div class="results" id="results" aria-live="polite"></div></section>
+<section class="section" id="explore"><div class="wrap"><div class="eyebrow">Explore MedOrbit</div><h2>Everything you need to <span class="gold">move forward.</span></h2><p>Discover resources for education, admissions, documents and career development.</p><div class="grid">
+<article class="card"><div class="ico">✧</div><h3>Colleges & universities</h3><p>Explore institutions and build your shortlist.</p><a href="/education/colleges.html">Explore institutions →</a></article>
+<article class="card"><div class="ico">⌘</div><h3>Admissions & counselling</h3><p>Review admission stages and application preparation.</p><a href="/education/admission-process.html">Explore admissions →</a></article>
+<article class="card"><div class="ico">▤</div><h3>PDF library & guides</h3><p>Find useful guides and learning resources.</p><a href="/pages/pdf-library.html">Browse resources →</a></article>
+<article class="card"><div class="ico">◇</div><h3>Scholarships & fees</h3><p>Research funding and fee-planning information.</p><a href="/education/scholarships.html">Explore funding →</a></article>
+<article class="card"><div class="ico">↗</div><h3>Careers & recruitment</h3><p>Discover career pathways and job assistance.</p><a href="/career/index.html">Explore careers →</a></article>
+<article class="card"><div class="ico">◎</div><h3>Student account</h3><p>Open your account and supported profile features.</p><a href="/auth/login.html">Open account →</a></article>
+</div></div></section>
+<section class="section alt" id="courses"><div class="wrap"><div class="eyebrow">Find your pathway</div><h2>Explore popular <span class="gold">study areas.</span></h2><div class="coursegrid">
+<article class="course"><div class="ico">01 / MEDICINE</div><h3>MBBS</h3><p>Medical education and admission resources.</p><a href="/education/mbbs.html">Explore MBBS →</a></article>
+<article class="course"><div class="ico">02 / DENTISTRY</div><h3>BDS</h3><p>Dentistry pathways and preparation information.</p><a href="/education/bds.html">Explore BDS →</a></article>
+<article class="course"><div class="ico">03 / ALLIED HEALTH</div><h3>Paramedical</h3><p>Allied health study and career pathways.</p><a href="/education/paramedical.html">Explore courses →</a></article>
+<article class="course"><div class="ico">04 / AYUSH</div><h3>BAMS & BUMS</h3><p>Healthcare education and admission resources.</p><a href="/education/bams.html">Explore pathways →</a></article>
+</div><p>Verify eligibility, fees and admission requirements with the relevant official authorities.</p></div></section>
+<section class="section" id="services"><div class="wrap"><div class="eyebrow">Platform services</div><h2>From research to your <span class="gold">next milestone.</span></h2><div class="grid">
+<article class="card"><div class="ico">▣</div><h3>Document services</h3><p>Explore available document and PDF workflows.</p><a href="/pages/document-template.html">Open document tools →</a></article>
+<article class="card"><div class="ico">◷</div><h3>Latest releases</h3><p>Review available recent resource updates.</p><a href="/pages/latest-releases.html">View updates →</a></article>
+<article class="card"><div class="ico">?</div><h3>Help & support</h3><p>Find help and available guidance options.</p><a href="/pages/help-centre.html">Visit help centre →</a></article>
+</div></div></section>
+<section class="section alt"><div class="wrap cta"><div><div class="eyebrow">Start with MedOrbit</div><h2>Build your next chapter with <span class="gold">more clarity.</span></h2><p>Explore the platform or create an account to use configured account features.</p></div><div class="actions"><a class="btn goldbtn" href="/auth/register.html">Create account ↗</a><a class="btn" href="/auth/login.html">Log in</a></div></div></section>
+</main>
+<footer class="footer"><div class="wrap"><div class="footgrid">
+<div class="about"><a class="brand" href="/">MEDORBIT<small>EDUCATION · CAREERS · GROWTH</small></a><p>Education discovery, admission resources and career guidance in one place.</p><a class="gold" href="/pages/about.html">About MedOrbit →</a></div>
+<div><h3>Explore</h3><div class="footlinks"><a href="/education/mbbs.html">MBBS</a><a href="/education/bds.html">BDS</a><a href="/education/bams.html">BAMS / BUMS</a><a href="/education/paramedical.html">Paramedical</a><a href="/education/colleges.html">Colleges</a><a href="/education/scholarships.html">Scholarships</a></div></div>
+<div><h3>Resources</h3><div class="footlinks"><a href="/pages/pdf-library.html">PDF library</a><a href="/pages/latest-releases.html">Latest releases</a><a href="/pages/document-template.html">Documents</a><a href="/career/index.html">Careers & jobs</a><a href="/pages/help-centre.html">Help centre</a><a href="/pages/contact.html">Contact</a></div></div>
+<div><h3>Account & policies</h3><div class="footlinks"><a href="/auth/login.html">Login</a><a href="/auth/register.html">Register</a><a href="/auth/profile.html">Profile</a><a href="/legal/privacy-policy.html">Privacy</a><a href="/legal/terms.html">Terms</a><a href="/pages/sitemap.html">Sitemap</a></div></div>
+</div><div class="copyright">© <span id="year"></span> MedOrbit. All rights reserved. · <a class="gold" href="#top">Back to top ↑</a></div></div></footer>
+<script>
+(()=>{const nav=document.getElementById('nav'),toggle=document.getElementById('toggle');toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));document.getElementById('year').textContent=new Date().getFullYear();
+const pages=[['MBBS','/education/mbbs.html','medicine neet medical'],['BDS','/education/bds.html','dentistry dental'],['BAMS / BUMS','/education/bams.html','ayush'],['Paramedical courses','/education/paramedical.html','allied health'],['Colleges','/education/colleges.html','universities institutions'],['Scholarships','/education/scholarships.html','funding fees'],['Admission process','/education/admission-process.html','application counselling'],['PDF library','/pages/pdf-library.html','documents guides'],['Latest releases','/pages/latest-releases.html','updates notices'],['Careers and jobs','/career/index.html','employment recruitment'],['Login','/auth/login.html','sign in account'],['Register','/auth/register.html','sign up']];
+document.getElementById('search').addEventListener('submit',async e=>{e.preventDefault();const q=document.getElementById('q').value.trim(),box=document.getElementById('results');if(!q)return;box.style.display='block';box.textContent='Searching…';let items=[],source='local';try{const r=await fetch('/api/v1/search?q='+encodeURIComponent(q));if(r.ok){const d=await r.json();if(Array.isArray(d.results)){items=d.results;source='api'}}}catch(_){}if(source==='local')items=pages.filter(x=>(x[0]+' '+x[2]).toLowerCase().includes(q.toLowerCase())).map(x=>({title:x[0],url:x[1]}));box.replaceChildren();if(!items.length){box.textContent='No results found. Try another search term.';return}items.slice(0,10).forEach(x=>{if(!x.title||!x.url)return;const a=document.createElement('a');a.href=x.url;a.textContent=x.title;box.appendChild(a)})});
+})();
+</script>
+<script src="/assets/js/medorbit-global.js" defer></script>
 </body>
 </html>
