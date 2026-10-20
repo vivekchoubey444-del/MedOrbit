@@ -1,0 +1,8 @@
+{
+  "name": "MedOrbits",
+  "short_name": "MedOrbits",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#081426",
+  "background_color": "#081426"
+}
