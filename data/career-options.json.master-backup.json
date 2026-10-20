@@ -1,0 +1,306 @@
+[
+  {
+    "id": "career-doctor",
+    "title": "Medical Doctor",
+    "sector": "Healthcare",
+    "pathway": "Eligible medical degree, required internship and applicable registration",
+    "related_courses": [
+      "MBBS"
+    ]
+  },
+  {
+    "id": "career-dentist",
+    "title": "Dentist",
+    "sector": "Dental Healthcare",
+    "pathway": "Eligible dental degree and applicable registration",
+    "related_courses": [
+      "BDS"
+    ]
+  },
+  {
+    "id": "career-ayush",
+    "title": "AYUSH Practitioner",
+    "sector": "Healthcare",
+    "pathway": "Relevant recognized qualification and applicable registration",
+    "related_courses": [
+      "BAMS",
+      "BHMS",
+      "BUMS"
+    ]
+  },
+  {
+    "id": "career-nurse",
+    "title": "Registered Nurse",
+    "sector": "Nursing",
+    "pathway": "Accepted nursing qualification and applicable registration",
+    "related_courses": [
+      "GNM",
+      "BSc Nursing"
+    ]
+  },
+  {
+    "id": "career-lab",
+    "title": "Medical Laboratory Technologist",
+    "sector": "Allied Health",
+    "pathway": "Relevant recognized laboratory qualification",
+    "related_courses": [
+      "DMLT",
+      "BMLT"
+    ]
+  },
+  {
+    "id": "career-radiology",
+    "title": "Radiology Technologist",
+    "sector": "Allied Health",
+    "pathway": "Relevant imaging qualification",
+    "related_courses": [
+      "Radiology Technology"
+    ]
+  },
+  {
+    "id": "career-physio",
+    "title": "Physiotherapist",
+    "sector": "Allied Health",
+    "pathway": "Accepted physiotherapy qualification and applicable registration",
+    "related_courses": [
+      "BPT",
+      "MPT"
+    ]
+  },
+  {
+    "id": "career-pharmacist",
+    "title": "Pharmacist",
+    "sector": "Pharmacy",
+    "pathway": "Accepted pharmacy qualification and applicable registration",
+    "related_courses": [
+      "DPharm",
+      "BPharm",
+      "PharmD"
+    ]
+  },
+  {
+    "id": "career-biomedical",
+    "title": "Biomedical Engineer",
+    "sector": "Engineering",
+    "pathway": "Relevant engineering education and technical skills",
+    "related_courses": [
+      "Biomedical Engineering"
+    ]
+  },
+  {
+    "id": "career-software",
+    "title": "Software Developer",
+    "sector": "Technology",
+    "pathway": "Relevant education or demonstrable programming skills",
+    "related_courses": [
+      "Computer Science",
+      "Information Technology"
+    ]
+  },
+  {
+    "id": "career-data",
+    "title": "Data Analyst",
+    "sector": "Technology",
+    "pathway": "Analytical skills, statistics, spreadsheets and SQL",
+    "related_courses": [
+      "Data Science",
+      "Statistics",
+      "Computer Science"
+    ]
+  },
+  {
+    "id": "career-ai",
+    "title": "AI and Machine Learning Engineer",
+    "sector": "Technology",
+    "pathway": "Programming, mathematics and machine learning skills",
+    "related_courses": [
+      "Computer Science",
+      "Data Science"
+    ]
+  },
+  {
+    "id": "career-civil",
+    "title": "Civil Engineer",
+    "sector": "Engineering",
+    "pathway": "Relevant civil engineering qualification",
+    "related_courses": [
+      "Civil Engineering"
+    ]
+  },
+  {
+    "id": "career-mechanical",
+    "title": "Mechanical Engineer",
+    "sector": "Engineering",
+    "pathway": "Relevant mechanical engineering qualification",
+    "related_courses": [
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "id": "career-electrical",
+    "title": "Electrical Engineer",
+    "sector": "Engineering",
+    "pathway": "Relevant electrical engineering qualification",
+    "related_courses": [
+      "Electrical Engineering"
+    ]
+  },
+  {
+    "id": "career-research",
+    "title": "Clinical Research Associate",
+    "sector": "Research",
+    "pathway": "Relevant life-science education and role-specific training",
+    "related_courses": [
+      "Life Sciences",
+      "Pharmacy",
+      "Biotechnology"
+    ]
+  },
+  {
+    "id": "career-public-health",
+    "title": "Public Health Professional",
+    "sector": "Public Health",
+    "pathway": "Relevant public health or life-science education",
+    "related_courses": [
+      "Public Health",
+      "Epidemiology"
+    ]
+  },
+  {
+    "id": "career-hospital-admin",
+    "title": "Hospital Administrator",
+    "sector": "Healthcare Management",
+    "pathway": "Relevant management education or healthcare operations experience",
+    "related_courses": [
+      "Hospital Management",
+      "Healthcare Administration"
+    ]
+  },
+  {
+    "id": "career-medical-coder",
+    "title": "Medical Coder",
+    "sector": "Healthcare Operations",
+    "pathway": "Medical terminology and role-specific coding training",
+    "related_courses": [
+      "Health Information Management"
+    ]
+  },
+  {
+    "id": "career-accountant",
+    "title": "Accountant",
+    "sector": "Finance",
+    "pathway": "Relevant accounting education and role-specific skills",
+    "related_courses": [
+      "Commerce",
+      "Accounting",
+      "Finance"
+    ]
+  },
+  {
+    "id": "career-teacher",
+    "title": "Educator or Lecturer",
+    "sector": "Education",
+    "pathway": "Subject qualification and applicable eligibility requirements",
+    "related_courses": [
+      "Education",
+      "Relevant Subject Degree"
+    ]
+  },
+  {
+    "id": "career-lawyer",
+    "title": "Legal Professional",
+    "sector": "Law",
+    "pathway": "Recognized legal education and applicable professional requirements",
+    "related_courses": [
+      "LLB"
+    ]
+  },
+  {
+    "id": "career-manager",
+    "title": "Business Manager",
+    "sector": "Management",
+    "pathway": "Relevant education, business skills and experience",
+    "related_courses": [
+      "BBA",
+      "MBA"
+    ]
+  },
+  {
+    "id": "career-recruiter",
+    "title": "Recruitment Specialist",
+    "sector": "Human Resources",
+    "pathway": "Recruitment, communication and candidate assessment skills",
+    "related_courses": [
+      "Human Resources",
+      "Business Administration"
+    ]
+  },
+  {
+    "id": "career-digital-marketing",
+    "title": "Digital Marketing Specialist",
+    "sector": "Marketing",
+    "pathway": "Marketing, analytics and content skills",
+    "related_courses": [
+      "Marketing",
+      "Business Administration"
+    ]
+  },
+  {
+    "id": "career-agriculture",
+    "title": "Agriculture Professional",
+    "sector": "Agriculture",
+    "pathway": "Relevant agriculture education and practical skills",
+    "related_courses": [
+      "Agriculture",
+      "Horticulture"
+    ]
+  },
+  {
+    "id": "career-food-safety",
+    "title": "Food Safety Professional",
+    "sector": "Food Science",
+    "pathway": "Relevant qualification and eligibility under applicable rules",
+    "related_courses": [
+      "Food Technology",
+      "Food Science"
+    ]
+  },
+  {
+    "id": "career-optometry",
+    "title": "Optometrist",
+    "sector": "Allied Health",
+    "pathway": "Accepted optometry qualification and applicable registration",
+    "related_courses": [
+      "Optometry"
+    ]
+  },
+  {
+    "id": "career-dialysis",
+    "title": "Dialysis Technologist",
+    "sector": "Allied Health",
+    "pathway": "Relevant dialysis technology qualification",
+    "related_courses": [
+      "Dialysis Technology"
+    ]
+  },
+  {
+    "id": "career-emergency",
+    "title": "Emergency Medical Technician",
+    "sector": "Emergency Care",
+    "pathway": "Accepted emergency medical training",
+    "related_courses": [
+      "Emergency Medical Technology"
+    ]
+  },
+  {
+    "id": "career-counsellor",
+    "title": "Education Counsellor",
+    "sector": "Education Services",
+    "pathway": "Relevant education knowledge and counselling skills",
+    "related_courses": [
+      "Education",
+      "Psychology",
+      "Counselling"
+    ]
+  }
+]

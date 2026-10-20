@@ -1398,5 +1398,125 @@
     "application_url": null,
     "source": "MedOrbits career catalogue",
     "data_status": "job_category_not_confirmed_live_vacancy"
+  },
+  {
+    "id": "medical-officer",
+    "name": "Medical Officer",
+    "category": "Healthcare",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "staff-nurse",
+    "name": "Staff Nurse",
+    "category": "Healthcare",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "lab-technician",
+    "name": "Lab Technician",
+    "category": "Healthcare",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "radiology-technician",
+    "name": "Radiology Technician",
+    "category": "Healthcare",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "pharmacist",
+    "name": "Pharmacist",
+    "category": "Healthcare",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "physiotherapist",
+    "name": "Physiotherapist",
+    "category": "Healthcare",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "hospital-administrator",
+    "name": "Hospital Administrator",
+    "category": "Healthcare Management",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "clinical-research-associate",
+    "name": "Clinical Research Associate",
+    "category": "Research",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "software-developer",
+    "name": "Software Developer",
+    "category": "Technology",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "data-analyst",
+    "name": "Data Analyst",
+    "category": "Technology",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "ai-ml-engineer",
+    "name": "AI/ML Engineer",
+    "category": "Technology",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "accountant",
+    "name": "Accountant",
+    "category": "Finance",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "teacher",
+    "name": "Teacher",
+    "category": "Education",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "education-counsellor",
+    "name": "Education Counsellor",
+    "category": "Education",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "recruitment-specialist",
+    "name": "Recruitment Specialist",
+    "category": "Human Resources",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "digital-marketing-executive",
+    "name": "Digital Marketing Executive",
+    "category": "Marketing",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "civil-engineer",
+    "name": "Civil Engineer",
+    "category": "Engineering",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "mechanical-engineer",
+    "name": "Mechanical Engineer",
+    "category": "Engineering",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "electrical-engineer",
+    "name": "Electrical Engineer",
+    "category": "Engineering",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "agriculture-officer",
+    "name": "Agriculture Officer",
+    "category": "Agriculture",
+    "data_status": "catalogue_entry"
   }
 ]

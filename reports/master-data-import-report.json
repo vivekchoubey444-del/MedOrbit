@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-10-20T07:53:38.319453+00:00",
+  "mode": "additive",
+  "datasets": {
+    "entrance-exams.json": {
+      "records_before": 15,
+      "records_added": 1,
+      "records_after": 16,
+      "backup": "data/entrance-exams.json.master-backup.json"
+    },
+    "hostels.json": {
+      "records_before": 5,
+      "records_added": 5,
+      "records_after": 10,
+      "backup": "data/hostels.json.master-backup.json"
+    },
+    "fees.json": {
+      "records_before": 10,
+      "records_added": 14,
+      "records_after": 24,
+      "backup": "data/fees.json.master-backup.json"
+    },
+    "documents.json": {
+      "records_before": 15,
+      "records_added": 15,
+      "records_after": 30,
+      "backup": "data/documents.json.master-backup.json"
+    },
+    "career-options.json": {
+      "records_before": 31,
+      "records_added": 31,
+      "records_after": 62,
+      "backup": "data/career-options.json.master-backup.json"
+    },
+    "admission-process.json": {
+      "records_before": 0,
+      "records_added": 9,
+      "records_after": 9,
+      "backup": null
+    },
+    "countries.json": {
+      "records_before": 0,
+      "records_added": 51,
+      "records_after": 51,
+      "backup": null
+    },
+    "services.json": {
+      "records_before": 42,
+      "records_added": 14,
+      "records_after": 56,
+      "backup": "data/services.json.master-backup.json"
+    },
+    "jobs.json": {
+      "records_before": 100,
+      "records_added": 20,
+      "records_after": 120,
+      "backup": "data/jobs.json.master-backup.json"
+    },
+    "scholarships.json": {
+      "records_before": 78,
+      "records_added": 10,
+      "records_after": 88,
+      "backup": "data/scholarships.json.master-backup.json"
+    },
+    "universities.json": {
+      "records_before": 1400,
+      "records_added": 0,
+      "records_after": 1389,
+      "backup": "data/universities.json.master-backup.json"
+    },
+    "colleges.json": {
+      "records_before": 497,
+      "records_added": 0,
+      "records_after": 497,
+      "backup": "data/colleges.json.master-backup.json"
+    },
+    "courses.json": {
+      "records_before": 91,
+      "records_added": 29,
+      "records_after": 120,
+      "backup": "data/courses.json.master-backup.json"
+    }
+  }
+}

@@ -856,5 +856,65 @@
     "amount": null,
     "deadline": null,
     "data_status": "catalogue_entry_check_current_eligibility_and_deadline"
+  },
+  {
+    "id": "national-scholarship-portal-opportunities",
+    "name": "National Scholarship Portal opportunities",
+    "category": "Government",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "central-sector-scholarship-opportunities",
+    "name": "Central Sector Scholarship opportunities",
+    "category": "Government",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "post-matric-scholarship-opportunities",
+    "name": "Post-Matric Scholarship opportunities",
+    "category": "Government",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "pre-matric-scholarship-opportunities",
+    "name": "Pre-Matric Scholarship opportunities",
+    "category": "Government",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "merit-based-institutional-scholarships",
+    "name": "Merit-based institutional scholarships",
+    "category": "Institutional",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "need-based-financial-aid",
+    "name": "Need-based financial aid",
+    "category": "Financial Aid",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "minority-scholarship-opportunities",
+    "name": "Minority scholarship opportunities",
+    "category": "Government",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "state-scholarship-opportunities",
+    "name": "State scholarship opportunities",
+    "category": "State Government",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "research-fellowship-opportunities",
+    "name": "Research fellowship opportunities",
+    "category": "Research",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "international-scholarship-opportunities",
+    "name": "International scholarship opportunities",
+    "category": "International",
+    "data_status": "catalogue_entry"
   }
 ]

@@ -460,5 +460,89 @@
     "page": "/pages/contact.html",
     "status": "catalogue",
     "availability_note": "Confirm actual service availability with MedOrbits."
+  },
+  {
+    "id": "admission-guidance",
+    "name": "Admission Guidance",
+    "category": "Admissions",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "college-search",
+    "name": "College Search",
+    "category": "Discovery",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "course-selection",
+    "name": "Course Selection",
+    "category": "Counselling",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "scholarship-guidance",
+    "name": "Scholarship Guidance",
+    "category": "Financial Aid",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "education-loan-guidance",
+    "name": "Education Loan Guidance",
+    "category": "Financial Aid",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "document-assistance",
+    "name": "Document Assistance",
+    "category": "Documentation",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "application-assistance",
+    "name": "Application Assistance",
+    "category": "Admissions",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "career-counselling",
+    "name": "Career Counselling",
+    "category": "Careers",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "job-assistance",
+    "name": "Job Assistance",
+    "category": "Employment",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "study-abroad-guidance",
+    "name": "Study Abroad Guidance",
+    "category": "International Education",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "entrance-exam-guidance",
+    "name": "Entrance Exam Guidance",
+    "category": "Examinations",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "fee-comparison",
+    "name": "Fee Comparison",
+    "category": "Financial Planning",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "hostel-search",
+    "name": "Hostel Search",
+    "category": "Accommodation",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "application-status-support",
+    "name": "Application Status Support",
+    "category": "Support",
+    "data_status": "catalogue_entry"
   }
 ]

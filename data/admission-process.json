@@ -1,0 +1,47 @@
+[
+  {
+    "id": "registration",
+    "name": "Registration",
+    "description": "Complete the applicable official application."
+  },
+  {
+    "id": "eligibility",
+    "name": "Eligibility",
+    "description": "Check course, age, qualification and category requirements."
+  },
+  {
+    "id": "entrance-examination",
+    "name": "Entrance examination",
+    "description": "Take the examination if required."
+  },
+  {
+    "id": "counselling",
+    "name": "Counselling",
+    "description": "Register with the applicable counselling authority."
+  },
+  {
+    "id": "choice-filling",
+    "name": "Choice filling",
+    "description": "Select eligible courses and institutions."
+  },
+  {
+    "id": "seat-allotment",
+    "name": "Seat allotment",
+    "description": "Follow the official allotment instructions."
+  },
+  {
+    "id": "document-verification",
+    "name": "Document verification",
+    "description": "Provide the required documents."
+  },
+  {
+    "id": "fee-payment",
+    "name": "Fee payment",
+    "description": "Pay fees through the official payment channel."
+  },
+  {
+    "id": "reporting",
+    "name": "Reporting",
+    "description": "Complete institution reporting within the deadline."
+  }
+]

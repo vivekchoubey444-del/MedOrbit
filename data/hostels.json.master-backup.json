@@ -1,0 +1,67 @@
+[
+  {
+    "id": "hostel-template-government",
+    "name": "Government Student Hostel",
+    "property_type": "Government hostel",
+    "location": null,
+    "state": null,
+    "address": null,
+    "contact": null,
+    "amenities": [],
+    "monthly_fee": null,
+    "availability": "Not supplied",
+    "data_status": "listing_template"
+  },
+  {
+    "id": "hostel-template-private",
+    "name": "Private Student Hostel",
+    "property_type": "Private hostel",
+    "location": null,
+    "state": null,
+    "address": null,
+    "contact": null,
+    "amenities": [],
+    "monthly_fee": null,
+    "availability": "Not supplied",
+    "data_status": "listing_template"
+  },
+  {
+    "id": "hostel-template-medical",
+    "name": "Medical College Hostel",
+    "property_type": "Medical student accommodation",
+    "location": null,
+    "state": null,
+    "address": null,
+    "contact": null,
+    "amenities": [],
+    "monthly_fee": null,
+    "availability": "Confirm with institution",
+    "data_status": "listing_template"
+  },
+  {
+    "id": "hostel-template-nursing",
+    "name": "Nursing Student Hostel",
+    "property_type": "Nursing student accommodation",
+    "location": null,
+    "state": null,
+    "address": null,
+    "contact": null,
+    "amenities": [],
+    "monthly_fee": null,
+    "availability": "Confirm with institution",
+    "data_status": "listing_template"
+  },
+  {
+    "id": "hostel-template-university",
+    "name": "University Residence",
+    "property_type": "University accommodation",
+    "location": null,
+    "state": null,
+    "address": null,
+    "contact": null,
+    "amenities": [],
+    "monthly_fee": null,
+    "availability": "Confirm with university",
+    "data_status": "listing_template"
+  }
+]

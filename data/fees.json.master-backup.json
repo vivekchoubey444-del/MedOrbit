@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fee-mbbs",
+    "course": "MBBS",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-bds",
+    "course": "BDS",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-bams",
+    "course": "BAMS",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-bhms",
+    "course": "BHMS",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-bsc-nursing",
+    "course": "BSc Nursing",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-paramedical",
+    "course": "Paramedical programmes",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-bpharm",
+    "course": "BPharm",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-btech",
+    "course": "BTech",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-bba",
+    "course": "BBA",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  },
+  {
+    "id": "fee-mba",
+    "course": "MBA",
+    "fee_type": "Tuition and other institutional charges",
+    "amount": null,
+    "currency": "INR",
+    "academic_year": null,
+    "institution": null,
+    "state": null,
+    "source_url": null,
+    "data_status": "amount_not_supplied"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "doc-class10",
+    "name": "Class 10 marksheet or certificate",
+    "category": "Academic",
+    "required_for": "Where required by the application",
+    "notes": "Confirm accepted document and format with the institution."
+  },
+  {
+    "id": "doc-class12",
+    "name": "Class 12 marksheet or certificate",
+    "category": "Academic",
+    "required_for": "Courses requiring Class 12 qualification",
+    "notes": "Subject and minimum-mark requirements vary."
+  },
+  {
+    "id": "doc-degree",
+    "name": "Degree and marksheets",
+    "category": "Academic",
+    "required_for": "Eligible postgraduate applications",
+    "notes": "Submit the records specified by the admitting authority."
+  },
+  {
+    "id": "doc-identity",
+    "name": "Identity document",
+    "category": "Identity",
+    "required_for": "Where requested",
+    "notes": "Use an accepted identity document and protect personal information."
+  },
+  {
+    "id": "doc-photo",
+    "name": "Passport-size photograph",
+    "category": "Application",
+    "required_for": "Where requested",
+    "notes": "Follow the specified dimensions and file format."
+  },
+  {
+    "id": "doc-signature",
+    "name": "Scanned signature",
+    "category": "Application",
+    "required_for": "Where requested",
+    "notes": "Follow the application portal's upload instructions."
+  },
+  {
+    "id": "doc-category",
+    "name": "Category certificate",
+    "category": "Eligibility",
+    "required_for": "Applicants claiming an applicable category benefit",
+    "notes": "Validity and format requirements depend on the applicable rules."
+  },
+  {
+    "id": "doc-income",
+    "name": "Income certificate",
+    "category": "Financial Aid",
+    "required_for": "Where required for scholarship or fee benefit",
+    "notes": "Follow the issuing authority's current requirements."
+  },
+  {
+    "id": "doc-domicile",
+    "name": "Domicile or residence certificate",
+    "category": "Eligibility",
+    "required_for": "Where required by applicable admission rules",
+    "notes": "Requirements vary by state and counselling authority."
+  },
+  {
+    "id": "doc-neet-score",
+    "name": "Entrance examination scorecard",
+    "category": "Entrance Examination",
+    "required_for": "Where applicable",
+    "notes": "Use the official scorecard and follow counselling instructions."
+  },
+  {
+    "id": "doc-transfer",
+    "name": "Transfer or school-leaving certificate",
+    "category": "Academic",
+    "required_for": "Where requested by the institution",
+    "notes": "Confirm whether the original or a specified format is required."
+  },
+  {
+    "id": "doc-migration",
+    "name": "Migration certificate",
+    "category": "Academic",
+    "required_for": "Where required",
+    "notes": "Confirm applicability with the admitting institution."
+  },
+  {
+    "id": "doc-medical",
+    "name": "Medical fitness certificate",
+    "category": "Medical",
+    "required_for": "Where required by the programme",
+    "notes": "Use the format and issuing professional specified by the institution."
+  },
+  {
+    "id": "doc-bank",
+    "name": "Bank account evidence",
+    "category": "Financial Aid",
+    "required_for": "Where required for scholarship disbursement",
+    "notes": "Share only through the official application channel."
+  },
+  {
+    "id": "doc-disability",
+    "name": "Disability certificate",
+    "category": "Eligibility",
+    "required_for": "Applicants claiming applicable accommodations or benefits",
+    "notes": "Follow the relevant authority's documentation requirements."
+  }
+]

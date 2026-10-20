@@ -908,5 +908,179 @@
     "level": "Diploma",
     "country": "India",
     "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "id": "mbbs",
+    "name": "MBBS",
+    "category": "Medical",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bds",
+    "name": "BDS",
+    "category": "Dental",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bams",
+    "name": "BAMS",
+    "category": "AYUSH",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bhms",
+    "name": "BHMS",
+    "category": "AYUSH",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bums",
+    "name": "BUMS",
+    "category": "AYUSH",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bsc-nursing",
+    "name": "BSc Nursing",
+    "category": "Nursing",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "gnm",
+    "name": "GNM",
+    "category": "Nursing",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bpt",
+    "name": "BPT",
+    "category": "Allied Health",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bmlt",
+    "name": "BMLT",
+    "category": "Allied Health",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "dmlt",
+    "name": "DMLT",
+    "category": "Allied Health",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bpharm",
+    "name": "BPharm",
+    "category": "Pharmacy",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "dpharm",
+    "name": "DPharm",
+    "category": "Pharmacy",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "btech",
+    "name": "BTech",
+    "category": "Engineering",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "mtech",
+    "name": "MTech",
+    "category": "Engineering",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bsc",
+    "name": "BSc",
+    "category": "Science",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "msc",
+    "name": "MSc",
+    "category": "Science",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bca",
+    "name": "BCA",
+    "category": "Technology",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "mca",
+    "name": "MCA",
+    "category": "Technology",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bba",
+    "name": "BBA",
+    "category": "Management",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "mba",
+    "name": "MBA",
+    "category": "Management",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "ba",
+    "name": "BA",
+    "category": "Arts",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "ma",
+    "name": "MA",
+    "category": "Arts",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "bcom",
+    "name": "BCom",
+    "category": "Commerce",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "mcom",
+    "name": "MCom",
+    "category": "Commerce",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "llb",
+    "name": "LLB",
+    "category": "Law",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "llm",
+    "name": "LLM",
+    "category": "Law",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "phd",
+    "name": "PhD",
+    "category": "Research",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "diploma-in-paramedical-sciences",
+    "name": "Diploma in Paramedical Sciences",
+    "category": "Allied Health",
+    "data_status": "catalogue_entry"
+  },
+  {
+    "id": "diploma-in-computer-science",
+    "name": "Diploma in Computer Science",
+    "category": "Technology",
+    "data_status": "catalogue_entry"
   }
 ]

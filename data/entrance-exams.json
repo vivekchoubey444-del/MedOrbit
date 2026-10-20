@@ -1,0 +1,130 @@
+[
+  {
+    "id": "neet-ug",
+    "name": "NEET UG",
+    "category": "Medical",
+    "level": "Undergraduate",
+    "purpose": "Admission to eligible undergraduate medical programmes",
+    "official_url": "https://exams.nta.ac.in/NEET/"
+  },
+  {
+    "id": "neet-pg",
+    "name": "NEET PG",
+    "category": "Medical",
+    "level": "Postgraduate",
+    "purpose": "Admission to eligible postgraduate medical programmes",
+    "official_url": "https://natboard.edu.in/"
+  },
+  {
+    "id": "inicet",
+    "name": "INI-CET",
+    "category": "Medical",
+    "level": "Postgraduate",
+    "purpose": "Admission to specified postgraduate programmes at participating Institutes of National Importance",
+    "official_url": "https://www.aiimsexams.ac.in/"
+  },
+  {
+    "id": "neet-mds",
+    "name": "NEET MDS",
+    "category": "Dental",
+    "level": "Postgraduate",
+    "purpose": "Admission to eligible postgraduate dental programmes",
+    "official_url": "https://natboard.edu.in/"
+  },
+  {
+    "id": "cuet-ug",
+    "name": "CUET UG",
+    "category": "University Admissions",
+    "level": "Undergraduate",
+    "purpose": "Common entrance examination for participating universities",
+    "official_url": "https://exams.nta.ac.in/CUET-UG/"
+  },
+  {
+    "id": "cuet-pg",
+    "name": "CUET PG",
+    "category": "University Admissions",
+    "level": "Postgraduate",
+    "purpose": "Common entrance examination for participating postgraduate programmes",
+    "official_url": "https://exams.nta.ac.in/CUET-PG/"
+  },
+  {
+    "id": "jee-main",
+    "name": "JEE Main",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "purpose": "Entrance examination for participating engineering institutions",
+    "official_url": "https://jeemain.nta.nic.in/"
+  },
+  {
+    "id": "jee-advanced",
+    "name": "JEE Advanced",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "purpose": "Entrance examination for IIT undergraduate admission",
+    "official_url": "https://jeeadv.ac.in/"
+  },
+  {
+    "id": "gate",
+    "name": "GATE",
+    "category": "Engineering",
+    "level": "Postgraduate",
+    "purpose": "Graduate aptitude examination used by participating institutions and recruiters",
+    "official_url": "https://gate2026.iitg.ac.in/"
+  },
+  {
+    "id": "cat",
+    "name": "CAT",
+    "category": "Management",
+    "level": "Postgraduate",
+    "purpose": "Entrance examination used by participating management institutes",
+    "official_url": "https://iimcat.ac.in/"
+  },
+  {
+    "id": "clat",
+    "name": "CLAT",
+    "category": "Law",
+    "level": "Undergraduate and postgraduate",
+    "purpose": "Entrance examination for participating national law universities",
+    "official_url": "https://consortiumofnlus.ac.in/"
+  },
+  {
+    "id": "nata",
+    "name": "NATA",
+    "category": "Architecture",
+    "level": "Undergraduate",
+    "purpose": "Aptitude examination for eligible architecture programmes",
+    "official_url": "https://www.nata.in/"
+  },
+  {
+    "id": "cuet-pg-general",
+    "name": "University-specific postgraduate entrance tests",
+    "category": "University Admissions",
+    "level": "Postgraduate",
+    "purpose": "Check each university for its accepted entrance examinations",
+    "official_url": null
+  },
+  {
+    "id": "state-nursing-entrance",
+    "name": "State Nursing Entrance Examinations",
+    "category": "Nursing",
+    "level": "Varies",
+    "purpose": "Check the relevant state authority and institution for applicable nursing admission tests",
+    "official_url": null
+  },
+  {
+    "id": "state-paramedical-entrance",
+    "name": "State Paramedical Entrance Examinations",
+    "category": "Allied Health",
+    "level": "Varies",
+    "purpose": "Check applicable state and institutional admission requirements",
+    "official_url": null
+  },
+  {
+    "id": "ini-cet",
+    "name": "INI-CET",
+    "category": "Medical",
+    "level": "Postgraduate",
+    "official_url": null,
+    "data_status": "reference_entry_not_individually_verified"
+  }
+]
