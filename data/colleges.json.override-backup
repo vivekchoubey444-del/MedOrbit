@@ -1,0 +1,35 @@
+[
+  {
+    "id": "IN-DL-AIIMS-NEW-DELHI",
+    "name": "All India Institute of Medical Sciences, New Delhi",
+    "short_name": "AIIMS New Delhi",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "institution_type": "Medical Institute",
+    "management": "Government",
+    "courses": [
+      {
+        "name": "MBBS",
+        "annual_intake": null,
+        "academic_year": null,
+        "note": "Confirm intake for the target admission year using the latest official NMC seat matrix."
+      }
+    ],
+    "official_website": "https://www.aiims.edu/",
+    "sources": [
+      {
+        "name": "National Medical Commission",
+        "url": "https://www.nmc.org.in/information-desk/for-students-to-study-in-india/list-of-college-teaching-mbbs/",
+        "purpose": "Verify recognition, annual intake and current admission-year status."
+      },
+      {
+        "name": "AIIMS New Delhi",
+        "url": "https://www.aiims.edu/",
+        "purpose": "Institution's official website."
+      }
+    ],
+    "data_status": "source_linked_intake_pending_verification",
+    "last_checked": "2026-10-20"
+  }
+]
