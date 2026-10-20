@@ -1,0 +1,47 @@
+[
+  {
+    "id": "engineering-jobs",
+    "title": "Engineering and Technical Recruitment",
+    "category": "engineering",
+    "source_urls": [
+      "https://employmentnews.gov.in/newemp/AllJobs.aspx?k=All",
+      "https://www.ncs.gov.in/pages/govt-job-vacancies.aspx"
+    ],
+    "listing_type": "official-source-directory",
+    "live_vacancies_imported": false
+  },
+  {
+    "id": "medical-jobs",
+    "title": "Medical, Nursing and Healthcare Recruitment",
+    "category": "healthcare",
+    "source_urls": [
+      "https://employmentnews.gov.in/newemp/AllJobs.aspx?k=All",
+      "https://www.ncs.gov.in/pages/govt-job-vacancies.aspx"
+    ],
+    "listing_type": "official-source-directory",
+    "live_vacancies_imported": false
+  },
+  {
+    "id": "teaching-jobs",
+    "title": "Teaching, Faculty and Research Recruitment",
+    "category": "education",
+    "source_urls": [
+      "https://employmentnews.gov.in/newemp/AllJobs.aspx?k=All",
+      "https://www.ncs.gov.in/pages/govt-job-vacancies.aspx"
+    ],
+    "listing_type": "official-source-directory",
+    "live_vacancies_imported": false
+  },
+  {
+    "id": "central-government-jobs",
+    "title": "Central Government Recruitment",
+    "category": "government",
+    "source_urls": [
+      "https://upsc.gov.in/recruitment/recruitment-advertisement",
+      "https://employmentnews.gov.in/newemp/AllJobs.aspx?k=All",
+      "https://www.indiapost.gov.in/vacancies"
+    ],
+    "listing_type": "official-source-directory",
+    "live_vacancies_imported": false
+  }
+]

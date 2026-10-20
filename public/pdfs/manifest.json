@@ -1,0 +1,184 @@
+[
+  {
+    "id": "scholarship-application-guide",
+    "title": "Scholarship Application Guide",
+    "category": "admissions",
+    "filename": "scholarship-application-guide.pdf",
+    "url": "/pdfs/admissions/scholarship-application-guide.pdf",
+    "download_url": "/pdfs/admissions/scholarship-application-guide.pdf",
+    "bytes": 1285,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "admission-checklist",
+    "title": "Admission Checklist",
+    "category": "education",
+    "filename": "admission-checklist.pdf",
+    "url": "/pdfs/education/admission-checklist.pdf",
+    "download_url": "/pdfs/education/admission-checklist.pdf",
+    "bytes": 1529,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "document-checklist",
+    "title": "Document Checklist",
+    "category": "education",
+    "filename": "document-checklist.pdf",
+    "url": "/pdfs/education/document-checklist.pdf",
+    "download_url": "/pdfs/education/document-checklist.pdf",
+    "bytes": 1479,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "entrance-exam-guide",
+    "title": "Entrance Exam Guide",
+    "category": "education",
+    "filename": "entrance-exam-guide.pdf",
+    "url": "/pdfs/education/entrance-exam-guide.pdf",
+    "download_url": "/pdfs/education/entrance-exam-guide.pdf",
+    "bytes": 1286,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "fee-planning-guide",
+    "title": "Fee Planning Guide",
+    "category": "education",
+    "filename": "fee-planning-guide.pdf",
+    "url": "/pdfs/education/fee-planning-guide.pdf",
+    "download_url": "/pdfs/education/fee-planning-guide.pdf",
+    "bytes": 1432,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "hostel-checklist",
+    "title": "Hostel Checklist",
+    "category": "education",
+    "filename": "hostel-checklist.pdf",
+    "url": "/pdfs/education/hostel-checklist.pdf",
+    "download_url": "/pdfs/education/hostel-checklist.pdf",
+    "bytes": 1320,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "engineering-admission-guide",
+    "title": "Engineering Admission Guide",
+    "category": "engineering",
+    "filename": "engineering-admission-guide.pdf",
+    "url": "/pdfs/engineering/engineering-admission-guide.pdf",
+    "download_url": "/pdfs/engineering/engineering-admission-guide.pdf",
+    "bytes": 1424,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "higher-education-checklist",
+    "title": "Higher Education Checklist",
+    "category": "general-education",
+    "filename": "higher-education-checklist.pdf",
+    "url": "/pdfs/general-education/higher-education-checklist.pdf",
+    "download_url": "/pdfs/general-education/higher-education-checklist.pdf",
+    "bytes": 1378,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "job-application-checklist",
+    "title": "Job Application Checklist",
+    "category": "jobs",
+    "filename": "job-application-checklist.pdf",
+    "url": "/pdfs/jobs/job-application-checklist.pdf",
+    "download_url": "/pdfs/jobs/job-application-checklist.pdf",
+    "bytes": 1528,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "medical-admission-checklist",
+    "title": "Medical Admission Checklist",
+    "category": "nmc",
+    "filename": "medical-admission-checklist.pdf",
+    "url": "/pdfs/nmc/medical-admission-checklist.pdf",
+    "download_url": "/pdfs/nmc/medical-admission-checklist.pdf",
+    "bytes": 1464,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "repository-quality-report",
+    "title": "Repository Quality Report",
+    "category": "recent-issues",
+    "filename": "repository-quality-report.pdf",
+    "url": "/pdfs/recent-issues/repository-quality-report.pdf",
+    "download_url": "/pdfs/recent-issues/repository-quality-report.pdf",
+    "bytes": 1277,
+    "kind": "medorbit_generated_guide"
+  },
+  {
+    "id": "nmc-college-list",
+    "title": "NMC List of Colleges Teaching MBBS",
+    "category": "nmc",
+    "source_url": "https://www.nmc.org.in/information-desk/for-students-to-study-in-india/list-of-college-teaching-mbbs/1000/",
+    "kind": "official_web_resource",
+    "status": "official_source_link"
+  },
+  {
+    "id": "nmc-college-course-search",
+    "title": "NMC College and Course Search",
+    "category": "nmc",
+    "source_url": "https://www.nmc.org.in/information-desk/college-and-course-search/",
+    "kind": "official_web_resource",
+    "status": "official_source_link"
+  },
+  {
+    "id": "nta",
+    "title": "National Testing Agency",
+    "category": "admissions",
+    "source_url": "https://nta.ac.in/",
+    "kind": "official_web_resource",
+    "status": "official_source_link"
+  },
+  {
+    "id": "aicte",
+    "title": "AICTE Official Website",
+    "category": "engineering",
+    "source_url": "https://www.aicte-india.org/",
+    "kind": "official_web_resource",
+    "status": "official_source_link"
+  },
+  {
+    "id": "scholarship-portal",
+    "title": "National Scholarship Portal",
+    "category": "scholarships",
+    "source_url": "https://scholarships.gov.in/",
+    "kind": "official_web_resource",
+    "status": "official_source_link"
+  },
+  {
+    "id": "employment-news",
+    "title": "Employment News: Government Recruitment Listings",
+    "category": "jobs",
+    "source_url": "https://employmentnews.gov.in/newemp/AllJobs.aspx?k=All",
+    "kind": "official_job_portal",
+    "status": "live_source_link"
+  },
+  {
+    "id": "india-post-vacancies",
+    "title": "India Post Recruitment and Vacancy Notices",
+    "category": "jobs",
+    "source_url": "https://www.indiapost.gov.in/vacancies",
+    "kind": "official_job_portal",
+    "status": "live_source_link"
+  },
+  {
+    "id": "national-career-service",
+    "title": "National Career Service: Government Job Links",
+    "category": "jobs",
+    "source_url": "https://www.ncs.gov.in/pages/govt-job-vacancies.aspx",
+    "kind": "official_job_portal",
+    "status": "live_source_link"
+  },
+  {
+    "id": "upsc-recruitment",
+    "title": "UPSC Recruitment Advertisements",
+    "category": "jobs",
+    "source_url": "https://upsc.gov.in/recruitment/recruitment-advertisement",
+    "kind": "official_job_portal",
+    "status": "live_source_link"
+  }
+]

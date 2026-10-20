@@ -1,0 +1,112 @@
+[
+  {
+    "id": "aicte-approval-process-handbook",
+    "title": "AICTE Approval Process Handbook 2024-2027",
+    "category": "engineering",
+    "type": "official_pdf",
+    "source_url": "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf",
+    "local_path": "public/pdfs/engineering/aicte-approval-process-handbook.pdf",
+    "authority": "AICTE",
+    "status": "download_failed_or_unavailable"
+  },
+  {
+    "id": "nmc-college-list",
+    "title": "NMC List of Colleges Teaching MBBS",
+    "category": "nmc",
+    "type": "official_web_resource",
+    "source_url": "https://www.nmc.org.in/information-desk/for-students-to-study-in-india/list-of-college-teaching-mbbs/1000/",
+    "local_path": null,
+    "authority": "National Medical Commission",
+    "status": "official_source_link"
+  },
+  {
+    "id": "nmc-college-course-search",
+    "title": "NMC College and Course Search",
+    "category": "nmc",
+    "type": "official_web_resource",
+    "source_url": "https://www.nmc.org.in/information-desk/college-and-course-search/",
+    "local_path": null,
+    "authority": "National Medical Commission",
+    "status": "official_source_link"
+  },
+  {
+    "id": "nmc-public-notice-new-colleges",
+    "title": "NMC Public Notice: New Medical Colleges and Seat Increase",
+    "category": "nmc",
+    "type": "official_pdf",
+    "source_url": "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FLatestNews%2FMARB_PublicNotice_OnlineApplications.pdf",
+    "local_path": "public/pdfs/nmc/nmc-public-notice-new-colleges.pdf",
+    "authority": "National Medical Commission",
+    "status": "download_failed_or_unavailable"
+  },
+  {
+    "id": "nta",
+    "title": "National Testing Agency",
+    "category": "admissions",
+    "type": "official_web_resource",
+    "source_url": "https://nta.ac.in/",
+    "local_path": null,
+    "authority": "National Testing Agency",
+    "status": "official_source_link"
+  },
+  {
+    "id": "aicte",
+    "title": "AICTE Official Website",
+    "category": "engineering",
+    "type": "official_web_resource",
+    "source_url": "https://www.aicte-india.org/",
+    "local_path": null,
+    "authority": "AICTE",
+    "status": "official_source_link"
+  },
+  {
+    "id": "scholarship-portal",
+    "title": "National Scholarship Portal",
+    "category": "scholarships",
+    "type": "official_web_resource",
+    "source_url": "https://scholarships.gov.in/",
+    "local_path": null,
+    "authority": "Government of India",
+    "status": "official_source_link"
+  },
+  {
+    "id": "employment-news",
+    "title": "Employment News: Government Recruitment Listings",
+    "category": "jobs",
+    "type": "official_job_portal",
+    "source_url": "https://employmentnews.gov.in/newemp/AllJobs.aspx?k=All",
+    "local_path": null,
+    "authority": "Ministry of Information and Broadcasting",
+    "status": "live_source_link"
+  },
+  {
+    "id": "india-post-vacancies",
+    "title": "India Post Recruitment and Vacancy Notices",
+    "category": "jobs",
+    "type": "official_job_portal",
+    "source_url": "https://www.indiapost.gov.in/vacancies",
+    "local_path": null,
+    "authority": "India Post",
+    "status": "live_source_link"
+  },
+  {
+    "id": "national-career-service",
+    "title": "National Career Service: Government Job Links",
+    "category": "jobs",
+    "type": "official_job_portal",
+    "source_url": "https://www.ncs.gov.in/pages/govt-job-vacancies.aspx",
+    "local_path": null,
+    "authority": "Government of India",
+    "status": "live_source_link"
+  },
+  {
+    "id": "upsc-recruitment",
+    "title": "UPSC Recruitment Advertisements",
+    "category": "jobs",
+    "type": "official_job_portal",
+    "source_url": "https://upsc.gov.in/recruitment/recruitment-advertisement",
+    "local_path": null,
+    "authority": "Union Public Service Commission",
+    "status": "live_source_link"
+  }
+]

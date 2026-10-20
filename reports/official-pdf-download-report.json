@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-10-20T07:59:27.338923+00:00",
+  "downloads": [
+    {
+      "id": "aicte-approval-process-handbook",
+      "status": "failed",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+      "source_url": "https://aicte-qa.aicte-india.org/sites/default/files/APH%20Final.pdf"
+    },
+    {
+      "id": "nmc-public-notice-new-colleges",
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found",
+      "source_url": "https://www.nmc.org.in/MCIRest/open/getDocument?path=%2FDocuments%2FPublic%2FPortal%2FLatestNews%2FMARB_PublicNotice_OnlineApplications.pdf"
+    }
+  ],
+  "note": "Only selected official PDFs are attempted; this does not mirror all Google results."
+}
