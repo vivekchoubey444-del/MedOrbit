@@ -1,0 +1,85 @@
+name: MedOrbit Quality Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: medorbit-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Data, syntax and security checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Node dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          elif [ -f package.json ]; then
+            npm install --ignore-scripts
+          fi
+
+      - name: Check JSON data integrity
+        run: python scripts/quality_gate.py
+
+      - name: Check Python syntax
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          files = list(Path("scripts").rglob("*.py"))
+          for path in files:
+              ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+          print(f"Python syntax passed: {len(files)} files")
+          PY
+
+      - name: Check backend JavaScript syntax
+        run: |
+          if [ -f backend/server.js ]; then
+            node --check backend/server.js
+          else
+            echo "backend/server.js not present; skipped"
+          fi
+
+      - name: Run configured project checks
+        run: |
+          run_if_available() {
+            script="$1"
+            if node -e "process.exit(require('./package.json').scripts?.['$script'] ? 0 : 1)" 2>/dev/null; then
+              npm run "$script"
+            else
+              echo "Script '$script' not configured; skipped"
+            fi
+          }
+          run_if_available check
+          run_if_available validate:data
+          run_if_available check:secrets
+          run_if_available check:sql
+
+      - name: Dependency vulnerability report
+        continue-on-error: true
+        run: npm audit --audit-level=high
