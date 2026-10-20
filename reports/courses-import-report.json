@@ -1,0 +1,8 @@
+{
+  "imported_at": "2026-10-20T07:33:42.915447+00:00",
+  "catalogue_entries_added": 91,
+  "total_course_entries": 91,
+  "destination": "data/courses.json",
+  "backup": "data/courses.json.override-backup",
+  "note": "Course catalogue entries do not imply every course is offered by every institution."
+}

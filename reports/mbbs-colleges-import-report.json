@@ -1,0 +1,8 @@
+{
+  "imported_at": "2026-10-20T07:30:58.368040+00:00",
+  "source": "https://raw.githubusercontent.com/krishnaraj-creator/medical-community-analysis/master/medical-colleges-mbbs-india.csv",
+  "records_written": 497,
+  "destination": "data/colleges.json",
+  "backup": "data/colleges.json.override-backup",
+  "status": "imported_unverified"
+}

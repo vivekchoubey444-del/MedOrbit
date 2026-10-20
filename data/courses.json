@@ -1,1 +1,912 @@
-[]
+[
+  {
+    "code": "MBBS",
+    "name": "Bachelor of Medicine and Bachelor of Surgery",
+    "course_name": "Bachelor of Medicine and Bachelor of Surgery",
+    "abbreviation": "MBBS",
+    "category": "Medical",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BDS",
+    "name": "Bachelor of Dental Surgery",
+    "course_name": "Bachelor of Dental Surgery",
+    "abbreviation": "BDS",
+    "category": "Dental",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BAMS",
+    "name": "Bachelor of Ayurvedic Medicine and Surgery",
+    "course_name": "Bachelor of Ayurvedic Medicine and Surgery",
+    "abbreviation": "BAMS",
+    "category": "AYUSH",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BHMS",
+    "name": "Bachelor of Homeopathic Medicine and Surgery",
+    "course_name": "Bachelor of Homeopathic Medicine and Surgery",
+    "abbreviation": "BHMS",
+    "category": "AYUSH",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BUMS",
+    "name": "Bachelor of Unani Medicine and Surgery",
+    "course_name": "Bachelor of Unani Medicine and Surgery",
+    "abbreviation": "BUMS",
+    "category": "AYUSH",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSMS",
+    "name": "Bachelor of Siddha Medicine and Surgery",
+    "course_name": "Bachelor of Siddha Medicine and Surgery",
+    "abbreviation": "BSMS",
+    "category": "AYUSH",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BNYS",
+    "name": "Bachelor of Naturopathy and Yogic Sciences",
+    "course_name": "Bachelor of Naturopathy and Yogic Sciences",
+    "abbreviation": "BNYS",
+    "category": "AYUSH",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BPT",
+    "name": "Bachelor of Physiotherapy",
+    "course_name": "Bachelor of Physiotherapy",
+    "abbreviation": "BPT",
+    "category": "Allied Health",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BOT",
+    "name": "Bachelor of Occupational Therapy",
+    "course_name": "Bachelor of Occupational Therapy",
+    "abbreviation": "BOT",
+    "category": "Allied Health",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Nursing",
+    "name": "Bachelor of Science in Nursing",
+    "course_name": "Bachelor of Science in Nursing",
+    "abbreviation": "BSc Nursing",
+    "category": "Nursing",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "GNM",
+    "name": "General Nursing and Midwifery",
+    "course_name": "General Nursing and Midwifery",
+    "abbreviation": "GNM",
+    "category": "Nursing",
+    "level": "Diploma",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "ANM",
+    "name": "Auxiliary Nursing and Midwifery",
+    "course_name": "Auxiliary Nursing and Midwifery",
+    "abbreviation": "ANM",
+    "category": "Nursing",
+    "level": "Diploma",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BPharm",
+    "name": "Bachelor of Pharmacy",
+    "course_name": "Bachelor of Pharmacy",
+    "abbreviation": "BPharm",
+    "category": "Pharmacy",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "DPharm",
+    "name": "Diploma in Pharmacy",
+    "course_name": "Diploma in Pharmacy",
+    "abbreviation": "DPharm",
+    "category": "Pharmacy",
+    "level": "Diploma",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "PharmD",
+    "name": "Doctor of Pharmacy",
+    "course_name": "Doctor of Pharmacy",
+    "abbreviation": "PharmD",
+    "category": "Pharmacy",
+    "level": "Doctoral",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MPharm",
+    "name": "Master of Pharmacy",
+    "course_name": "Master of Pharmacy",
+    "abbreviation": "MPharm",
+    "category": "Pharmacy",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BMLT",
+    "name": "Bachelor of Medical Laboratory Technology",
+    "course_name": "Bachelor of Medical Laboratory Technology",
+    "abbreviation": "BMLT",
+    "category": "Paramedical",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "DMLT",
+    "name": "Diploma in Medical Laboratory Technology",
+    "course_name": "Diploma in Medical Laboratory Technology",
+    "abbreviation": "DMLT",
+    "category": "Paramedical",
+    "level": "Diploma",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Radiology",
+    "name": "Bachelor of Science in Radiology and Imaging Technology",
+    "course_name": "Bachelor of Science in Radiology and Imaging Technology",
+    "abbreviation": "BSc Radiology",
+    "category": "Paramedical",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc OTT",
+    "name": "Bachelor of Science in Operation Theatre Technology",
+    "course_name": "Bachelor of Science in Operation Theatre Technology",
+    "abbreviation": "BSc OTT",
+    "category": "Paramedical",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Anesthesia",
+    "name": "Bachelor of Science in Anaesthesia Technology",
+    "course_name": "Bachelor of Science in Anaesthesia Technology",
+    "abbreviation": "BSc Anesthesia",
+    "category": "Paramedical",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Optometry",
+    "name": "Bachelor of Science in Optometry",
+    "course_name": "Bachelor of Science in Optometry",
+    "abbreviation": "BSc Optometry",
+    "category": "Allied Health",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Dialysis",
+    "name": "Bachelor of Science in Dialysis Technology",
+    "course_name": "Bachelor of Science in Dialysis Technology",
+    "abbreviation": "BSc Dialysis",
+    "category": "Paramedical",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Cardiac Care",
+    "name": "Bachelor of Science in Cardiac Care Technology",
+    "course_name": "Bachelor of Science in Cardiac Care Technology",
+    "abbreviation": "BSc Cardiac Care",
+    "category": "Paramedical",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Emergency Care",
+    "name": "Bachelor of Science in Emergency and Trauma Care Technology",
+    "course_name": "Bachelor of Science in Emergency and Trauma Care Technology",
+    "abbreviation": "BSc Emergency Care",
+    "category": "Paramedical",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Respiratory Therapy",
+    "name": "Bachelor of Science in Respiratory Therapy",
+    "course_name": "Bachelor of Science in Respiratory Therapy",
+    "abbreviation": "BSc Respiratory Therapy",
+    "category": "Allied Health",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Biotechnology",
+    "name": "Bachelor of Science in Biotechnology",
+    "course_name": "Bachelor of Science in Biotechnology",
+    "abbreviation": "BSc Biotechnology",
+    "category": "Science",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Microbiology",
+    "name": "Bachelor of Science in Microbiology",
+    "course_name": "Bachelor of Science in Microbiology",
+    "abbreviation": "BSc Microbiology",
+    "category": "Science",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Biochemistry",
+    "name": "Bachelor of Science in Biochemistry",
+    "course_name": "Bachelor of Science in Biochemistry",
+    "abbreviation": "BSc Biochemistry",
+    "category": "Science",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Agriculture",
+    "name": "Bachelor of Science in Agriculture",
+    "course_name": "Bachelor of Science in Agriculture",
+    "abbreviation": "BSc Agriculture",
+    "category": "Agriculture",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Horticulture",
+    "name": "Bachelor of Science in Horticulture",
+    "course_name": "Bachelor of Science in Horticulture",
+    "abbreviation": "BSc Horticulture",
+    "category": "Agriculture",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BVSc & AH",
+    "name": "Bachelor of Veterinary Science and Animal Husbandry",
+    "course_name": "Bachelor of Veterinary Science and Animal Husbandry",
+    "abbreviation": "BVSc & AH",
+    "category": "Veterinary",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTech CSE",
+    "name": "Bachelor of Technology in Computer Science and Engineering",
+    "course_name": "Bachelor of Technology in Computer Science and Engineering",
+    "abbreviation": "BTech CSE",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTech AI",
+    "name": "Bachelor of Technology in Artificial Intelligence",
+    "course_name": "Bachelor of Technology in Artificial Intelligence",
+    "abbreviation": "BTech AI",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTech Data Science",
+    "name": "Bachelor of Technology in Data Science",
+    "course_name": "Bachelor of Technology in Data Science",
+    "abbreviation": "BTech Data Science",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTech IT",
+    "name": "Bachelor of Technology in Information Technology",
+    "course_name": "Bachelor of Technology in Information Technology",
+    "abbreviation": "BTech IT",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTech ECE",
+    "name": "Bachelor of Technology in Electronics and Communication Engineering",
+    "course_name": "Bachelor of Technology in Electronics and Communication Engineering",
+    "abbreviation": "BTech ECE",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTech Mechanical",
+    "name": "Bachelor of Technology in Mechanical Engineering",
+    "course_name": "Bachelor of Technology in Mechanical Engineering",
+    "abbreviation": "BTech Mechanical",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTech Civil",
+    "name": "Bachelor of Technology in Civil Engineering",
+    "course_name": "Bachelor of Technology in Civil Engineering",
+    "abbreviation": "BTech Civil",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTech Electrical",
+    "name": "Bachelor of Technology in Electrical Engineering",
+    "course_name": "Bachelor of Technology in Electrical Engineering",
+    "abbreviation": "BTech Electrical",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BE",
+    "name": "Bachelor of Engineering",
+    "course_name": "Bachelor of Engineering",
+    "abbreviation": "BE",
+    "category": "Engineering",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "Diploma Engineering",
+    "name": "Diploma in Engineering",
+    "course_name": "Diploma in Engineering",
+    "abbreviation": "Diploma Engineering",
+    "category": "Engineering",
+    "level": "Diploma",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BCA",
+    "name": "Bachelor of Computer Applications",
+    "course_name": "Bachelor of Computer Applications",
+    "abbreviation": "BCA",
+    "category": "Computer Applications",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MCA",
+    "name": "Master of Computer Applications",
+    "course_name": "Master of Computer Applications",
+    "abbreviation": "MCA",
+    "category": "Computer Applications",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Computer Science",
+    "name": "Bachelor of Science in Computer Science",
+    "course_name": "Bachelor of Science in Computer Science",
+    "abbreviation": "BSc Computer Science",
+    "category": "Computer Science",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Data Science",
+    "name": "Bachelor of Science in Data Science",
+    "course_name": "Bachelor of Science in Data Science",
+    "abbreviation": "BSc Data Science",
+    "category": "Data Science",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MSc Data Science",
+    "name": "Master of Science in Data Science",
+    "course_name": "Master of Science in Data Science",
+    "abbreviation": "MSc Data Science",
+    "category": "Data Science",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc IT",
+    "name": "Bachelor of Science in Information Technology",
+    "course_name": "Bachelor of Science in Information Technology",
+    "abbreviation": "BSc IT",
+    "category": "Information Technology",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BBA",
+    "name": "Bachelor of Business Administration",
+    "course_name": "Bachelor of Business Administration",
+    "abbreviation": "BBA",
+    "category": "Management",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MBA",
+    "name": "Master of Business Administration",
+    "course_name": "Master of Business Administration",
+    "abbreviation": "MBA",
+    "category": "Management",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BCom",
+    "name": "Bachelor of Commerce",
+    "course_name": "Bachelor of Commerce",
+    "abbreviation": "BCom",
+    "category": "Commerce",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MCom",
+    "name": "Master of Commerce",
+    "course_name": "Master of Commerce",
+    "abbreviation": "MCom",
+    "category": "Commerce",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BA",
+    "name": "Bachelor of Arts",
+    "course_name": "Bachelor of Arts",
+    "abbreviation": "BA",
+    "category": "Arts and Humanities",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MA",
+    "name": "Master of Arts",
+    "course_name": "Master of Arts",
+    "abbreviation": "MA",
+    "category": "Arts and Humanities",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc",
+    "name": "Bachelor of Science",
+    "course_name": "Bachelor of Science",
+    "abbreviation": "BSc",
+    "category": "Science",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MSc",
+    "name": "Master of Science",
+    "course_name": "Master of Science",
+    "abbreviation": "MSc",
+    "category": "Science",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BEd",
+    "name": "Bachelor of Education",
+    "course_name": "Bachelor of Education",
+    "abbreviation": "BEd",
+    "category": "Education",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MEd",
+    "name": "Master of Education",
+    "course_name": "Master of Education",
+    "abbreviation": "MEd",
+    "category": "Education",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "LLB",
+    "name": "Bachelor of Laws",
+    "course_name": "Bachelor of Laws",
+    "abbreviation": "LLB",
+    "category": "Law",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "LLM",
+    "name": "Master of Laws",
+    "course_name": "Master of Laws",
+    "abbreviation": "LLM",
+    "category": "Law",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BA LLB",
+    "name": "Bachelor of Arts and Bachelor of Laws",
+    "course_name": "Bachelor of Arts and Bachelor of Laws",
+    "abbreviation": "BA LLB",
+    "category": "Law",
+    "level": "Integrated",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BArch",
+    "name": "Bachelor of Architecture",
+    "course_name": "Bachelor of Architecture",
+    "abbreviation": "BArch",
+    "category": "Architecture",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BDes",
+    "name": "Bachelor of Design",
+    "course_name": "Bachelor of Design",
+    "abbreviation": "BDes",
+    "category": "Design",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BHM",
+    "name": "Bachelor of Hotel Management",
+    "course_name": "Bachelor of Hotel Management",
+    "abbreviation": "BHM",
+    "category": "Hospitality",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BTTM",
+    "name": "Bachelor of Travel and Tourism Management",
+    "course_name": "Bachelor of Travel and Tourism Management",
+    "abbreviation": "BTTM",
+    "category": "Tourism",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BJMC",
+    "name": "Bachelor of Journalism and Mass Communication",
+    "course_name": "Bachelor of Journalism and Mass Communication",
+    "abbreviation": "BJMC",
+    "category": "Media",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BFA",
+    "name": "Bachelor of Fine Arts",
+    "course_name": "Bachelor of Fine Arts",
+    "abbreviation": "BFA",
+    "category": "Fine Arts",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSW",
+    "name": "Bachelor of Social Work",
+    "course_name": "Bachelor of Social Work",
+    "abbreviation": "BSW",
+    "category": "Social Sciences",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MSW",
+    "name": "Master of Social Work",
+    "course_name": "Master of Social Work",
+    "abbreviation": "MSW",
+    "category": "Social Sciences",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BDes Fashion",
+    "name": "Bachelor of Fashion Design",
+    "course_name": "Bachelor of Fashion Design",
+    "abbreviation": "BDes Fashion",
+    "category": "Design",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Forestry",
+    "name": "Bachelor of Science in Forestry",
+    "course_name": "Bachelor of Science in Forestry",
+    "abbreviation": "BSc Forestry",
+    "category": "Agriculture",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Food Technology",
+    "name": "Bachelor of Science in Food Technology",
+    "course_name": "Bachelor of Science in Food Technology",
+    "abbreviation": "BSc Food Technology",
+    "category": "Food Science",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "BSc Nutrition",
+    "name": "Bachelor of Science in Nutrition and Dietetics",
+    "course_name": "Bachelor of Science in Nutrition and Dietetics",
+    "abbreviation": "BSc Nutrition",
+    "category": "Allied Health",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MPH",
+    "name": "Master of Public Health",
+    "course_name": "Master of Public Health",
+    "abbreviation": "MPH",
+    "category": "Public Health",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MD",
+    "name": "Doctor of Medicine",
+    "course_name": "Doctor of Medicine",
+    "abbreviation": "MD",
+    "category": "Medical",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MS",
+    "name": "Master of Surgery",
+    "course_name": "Master of Surgery",
+    "abbreviation": "MS",
+    "category": "Medical",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "DM",
+    "name": "Doctorate of Medicine",
+    "course_name": "Doctorate of Medicine",
+    "abbreviation": "DM",
+    "category": "Medical",
+    "level": "Super Specialty",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MCh",
+    "name": "Master of Chirurgiae",
+    "course_name": "Master of Chirurgiae",
+    "abbreviation": "MCh",
+    "category": "Medical",
+    "level": "Super Specialty",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MDS",
+    "name": "Master of Dental Surgery",
+    "course_name": "Master of Dental Surgery",
+    "abbreviation": "MDS",
+    "category": "Dental",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MD Ayurveda",
+    "name": "Doctor of Medicine in Ayurveda",
+    "course_name": "Doctor of Medicine in Ayurveda",
+    "abbreviation": "MD Ayurveda",
+    "category": "AYUSH",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MD Homoeopathy",
+    "name": "Doctor of Medicine in Homoeopathy",
+    "course_name": "Doctor of Medicine in Homoeopathy",
+    "abbreviation": "MD Homoeopathy",
+    "category": "AYUSH",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MPT",
+    "name": "Master of Physiotherapy",
+    "course_name": "Master of Physiotherapy",
+    "abbreviation": "MPT",
+    "category": "Allied Health",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MSc Nursing",
+    "name": "Master of Science in Nursing",
+    "course_name": "Master of Science in Nursing",
+    "abbreviation": "MSc Nursing",
+    "category": "Nursing",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "MSc Medical Lab Technology",
+    "name": "Master of Science in Medical Laboratory Technology",
+    "course_name": "Master of Science in Medical Laboratory Technology",
+    "abbreviation": "MSc Medical Lab Technology",
+    "category": "Paramedical",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "PhD",
+    "name": "Doctor of Philosophy",
+    "course_name": "Doctor of Philosophy",
+    "abbreviation": "PhD",
+    "category": "Research",
+    "level": "Doctoral",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "DSc",
+    "name": "Doctor of Science",
+    "course_name": "Doctor of Science",
+    "abbreviation": "DSc",
+    "category": "Research",
+    "level": "Doctoral",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "Post Basic BSc Nursing",
+    "name": "Post Basic Bachelor of Science in Nursing",
+    "course_name": "Post Basic Bachelor of Science in Nursing",
+    "abbreviation": "Post Basic BSc Nursing",
+    "category": "Nursing",
+    "level": "Undergraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "PG Diploma",
+    "name": "Postgraduate Diploma",
+    "course_name": "Postgraduate Diploma",
+    "abbreviation": "PG Diploma",
+    "category": "Professional Studies",
+    "level": "Postgraduate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "Certificate Course",
+    "name": "Certificate Programme",
+    "course_name": "Certificate Programme",
+    "abbreviation": "Certificate Course",
+    "category": "Professional Studies",
+    "level": "Certificate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "ITI",
+    "name": "Industrial Training Institute Trade Programme",
+    "course_name": "Industrial Training Institute Trade Programme",
+    "abbreviation": "ITI",
+    "category": "Vocational",
+    "level": "Certificate",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  },
+  {
+    "code": "Polytechnic Diploma",
+    "name": "Polytechnic Diploma Programme",
+    "course_name": "Polytechnic Diploma Programme",
+    "abbreviation": "Polytechnic Diploma",
+    "category": "Technical Education",
+    "level": "Diploma",
+    "country": "India",
+    "data_status": "catalogue_entry_not_admission_confirmation"
+  }
+]

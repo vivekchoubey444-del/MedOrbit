@@ -1,0 +1,8 @@
+{
+  "imported_at": "2026-10-20T07:37:11.517438+00:00",
+  "catalogue_entries": 42,
+  "new_entries_added": 42,
+  "total_records": 42,
+  "destination": "data/services.json",
+  "backup": "data/services.json.override-backup"
+}
