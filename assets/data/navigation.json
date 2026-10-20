@@ -1,13 +1,14 @@
-{
-  "schemaVersion": 1,
-  "dataset": "navigation",
-  "description": "Shared navigation structure",
-  "updatedAt": "2026-10-20",
-  "sourcePolicy": "Verify factual, legal, admission, fee and deadline information against official sources before publication.",
-  "items": [],
-  "fields": [
-    "label",
-    "url",
-    "children"
-  ]
-}
+[
+  {
+    "title": "Education",
+    "url": "/education/mbbs.html"
+  },
+  {
+    "title": "Jobs",
+    "url": "/career/jobs.html"
+  },
+  {
+    "title": "Resources",
+    "url": "/pages/resources.html"
+  }
+]

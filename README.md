@@ -1,29 +1,41 @@
-# MEDORBIT
+# MedOrbit
 
-Multi-language starter platform for web and backend development.
+Premium education and careers discovery platform using Royal Sapphire and Champagne Gold.
 
 ## Requirements
-- Node.js 20 or newer
-- Python 3 for the Python module
-- A Java JDK for the Java module
-- A C++ compiler for the C++ module
+- Node.js 20+
+- Python 3 for the site audit
 
-## Run the API
+## Run locally
 ```bash
 npm start
 ```
+Open http://localhost:3000.
 
-Check health:
-```bash
-curl http://127.0.0.1:3000/api/health
-```
-
-## Validate
+## Checks
 ```bash
 npm run check
-node --test
-python3 backend/python/src/main.py
+npm test
+npm run audit:site
 ```
 
-Java and C++ modules are starter examples and require their respective compilers.
-Never commit real credentials or `.env` files.
+## Structure
+- `index.html`: master homepage
+- `assets/css`: shared design system
+- `assets/js`: frontend interactions
+- `assets/data`: JSON data sources
+- `auth`, `education`, `career`, `pages`: HTML pages
+- `backend/routes`: API routing
+- `backend/controllers`: request handlers
+- `backend/middleware`: HTTP security and request utilities
+- `backend/services`: business services
+- `backend/utils`: shared utilities
+- `backend/validators`: input validation
+- `scripts`: Python maintenance and audit scripts
+- `tests`: automated tests
+
+## Authentication status
+Login and registration are intentionally disabled until a secure identity provider and persistent user store are configured. Do not store plaintext passwords or enable production authentication without password hashing, session management, rate limiting, CSRF protection where applicable, and account recovery controls.
+
+## Data
+The JSON files begin as starter datasets. Add only accurate, verified college, course, scholarship and job records. Do not represent placeholder data as live listings.

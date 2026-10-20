@@ -1,0 +1,12 @@
+.git
+.github
+node_modules
+.env
+.env.*
+backups
+coverage
+__pycache__
+*.pyc
+*.log
+secrets
+certs

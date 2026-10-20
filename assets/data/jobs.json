@@ -1,18 +1,4 @@
 {
-  "schemaVersion": 1,
-  "dataset": "jobs",
-  "description": "Job listings",
-  "updatedAt": "2026-10-20",
-  "sourcePolicy": "Verify factual, legal, admission, fee and deadline information against official sources before publication.",
   "items": [],
-  "fields": [
-    "id",
-    "title",
-    "employer",
-    "location",
-    "employmentType",
-    "officialUrl",
-    "publishedAt",
-    "expiresAt"
-  ]
+  "note": "Add verified job listings with title, organization, location, description and application URL."
 }

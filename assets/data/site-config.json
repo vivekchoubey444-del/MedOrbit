@@ -1,14 +1,12 @@
 {
-  "schemaVersion": 1,
-  "dataset": "site-config",
-  "description": "Public site configuration; never put secrets here",
-  "updatedAt": "2026-10-20",
-  "sourcePolicy": "Verify factual, legal, admission, fee and deadline information against official sources before publication.",
-  "items": [],
-  "fields": [
-    "siteName",
-    "defaultLanguage",
-    "supportUrl",
-    "searchEndpoint"
-  ]
+  "brand": "MedOrbit",
+  "tagline": "Your future, in orbit",
+  "theme": "royal-sapphire-champagne",
+  "defaultLocale": "en",
+  "features": {
+    "education": true,
+    "jobs": true,
+    "resources": true,
+    "authenticationConfigured": false
+  }
 }

@@ -1,22 +1,5 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sign in | MedOrbits</title>
-<link rel="stylesheet" href="/assets/css/royal-sapphire.css">
-<script src="/assets/js/medorbits-global.js" defer></script>
-</head>
-<body>
-<header class="mo-site-header"><a class="mo-brand" href="/">MED<span>ORBIT</span>S</a><nav class="mo-nav"><a href="/">Home</a><a href="/auth/register.html">Create account</a><a href="/pages/document-template.html">Document Studio</a></nav></header>
-<main class="mo-container mo-section">
-<section class="mo-hero"><p class="mo-gold">YOUR MEDORBIT ACCOUNT</p><h1>Welcome back.</h1><p>Sign in to access your MedOrbits workspace.</p></section>
-<form class="mo-card mo-form-card" data-mo-auth="login">
-<h2>Sign in</h2>
-<label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required>
-<label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required>
-<button type="submit">Sign in securely</button><p class="mo-status" role="status" aria-live="polite"></p>
-<p class="mo-small">New to MedOrbits? <a href="/auth/register.html">Create an account</a>.</p>
-</form>
-</main><footer class="mo-site-footer">MedOrbits · Royal Sapphire Design System</footer>
-<script src="/assets/js/medorbit-global.js" defer></script>
-</body></html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Login | MedOrbit</title><link rel="stylesheet" href="/assets/css/royal-sapphire.css"><script src="/assets/js/app.js" defer></script></head>
+<body><header class="header"><div class="container nav"><a class="brand" href="/"><span class="brand-mark">M</span><span>MEDORBIT<small>EDUCATION · CAREERS · GROWTH</small></span></a><nav class="nav-links"><a href="/">Home</a><a href="/education/mbbs.html">Education</a><a href="/career/jobs.html">Jobs</a><a href="/auth/login.html">Login</a><a class="btn btn-gold" href="/auth/register.html">Register</a></nav></div></header>
+<main class="form-page"><div class="container"><span class="eyebrow">MedOrbit</span><h1>Login</h1><p class="section-intro">Access your MedOrbit account.</p><form class="form-card" id="loginForm"><h2>Welcome back</h2><p class="notice">Secure account authentication must be configured before sign-in is enabled.</p><label>Email<input name="email" type="email" autocomplete="email" required></label><label>Password<input name="password" type="password" autocomplete="current-password" required></label><button class="btn btn-gold" type="submit">Sign in</button><p id="authMessage" class="notice" aria-live="polite"></p><p>New here? <a class="gold-text" href="/auth/register.html">Create an account</a></p></form><script>document.getElementById("loginForm").addEventListener("submit",async e=>{e.preventDefault();const m=document.getElementById("authMessage");m.textContent="Checking authentication configuration…";try{const r=await fetch("/api/v1/auth/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(Object.fromEntries(new FormData(e.target)))});const d=await r.json();m.textContent=d.error||"Authentication unavailable";}catch(_){m.textContent="Could not contact the server.";}});</script></div></main>
+<footer class="footer"><div class="container"><a class="brand" href="/">MEDORBIT</a><p>© <span id="year"></span> MedOrbit</p></div></footer></body></html>

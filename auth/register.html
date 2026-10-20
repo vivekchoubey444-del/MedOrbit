@@ -1,23 +1,5 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Create account | MedOrbits</title>
-<link rel="stylesheet" href="/assets/css/royal-sapphire.css">
-<script src="/assets/js/medorbits-global.js" defer></script>
-</head>
-<body>
-<header class="mo-site-header"><a class="mo-brand" href="/">MED<span>ORBIT</span>S</a><nav class="mo-nav"><a href="/">Home</a><a href="/auth/login.html">Sign in</a><a href="/pages/document-template.html">Document Studio</a></nav></header>
-<main class="mo-container mo-section">
-<section class="mo-hero"><p class="mo-gold">JOIN MEDORBIT</p><h1>Create your account.</h1><p>One workspace for your guidance, documents and profile.</p></section>
-<form class="mo-card mo-form-card" data-mo-auth="register">
-<h2>Register</h2>
-<label for="name">Full name</label><input id="name" name="name" autocomplete="name" required>
-<label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required>
-<label for="password">Password</label><input id="password" name="password" type="password" minlength="12" autocomplete="new-password" required><p class="mo-small">Use at least 12 characters. The server must enforce password rules too.</p>
-<button type="submit">Create account</button><p class="mo-status" role="status" aria-live="polite"></p>
-<p class="mo-small">Already registered? <a href="/auth/login.html">Sign in</a>.</p>
-</form>
-</main><footer class="mo-site-footer">MedOrbits · Account services</footer>
-<script src="/assets/js/medorbit-global.js" defer></script>
-</body></html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Create account | MedOrbit</title><link rel="stylesheet" href="/assets/css/royal-sapphire.css"><script src="/assets/js/app.js" defer></script></head>
+<body><header class="header"><div class="container nav"><a class="brand" href="/"><span class="brand-mark">M</span><span>MEDORBIT<small>EDUCATION · CAREERS · GROWTH</small></span></a><nav class="nav-links"><a href="/">Home</a><a href="/education/mbbs.html">Education</a><a href="/career/jobs.html">Jobs</a><a href="/auth/login.html">Login</a><a class="btn btn-gold" href="/auth/register.html">Register</a></nav></div></header>
+<main class="form-page"><div class="container"><span class="eyebrow">MedOrbit</span><h1>Create account</h1><p class="section-intro">Start your education and career journey.</p><form class="form-card" id="registerForm"><h2>Create your account</h2><p class="notice">Registration remains disabled until a secure identity provider and user database are configured.</p><label>Full name<input name="name" autocomplete="name" required maxlength="100"></label><label>Email<input name="email" type="email" autocomplete="email" required></label><label>Password (minimum 12 characters)<input name="password" type="password" autocomplete="new-password" minlength="12" required></label><button class="btn btn-gold" type="submit">Create account</button><p id="authMessage" class="notice" aria-live="polite"></p><p>Already registered? <a class="gold-text" href="/auth/login.html">Login</a></p></form><script>document.getElementById("registerForm").addEventListener("submit",async e=>{e.preventDefault();const m=document.getElementById("authMessage");m.textContent="Checking authentication configuration…";try{const r=await fetch("/api/v1/auth/register",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(Object.fromEntries(new FormData(e.target)))});const d=await r.json();m.textContent=d.error||"Registration unavailable";}catch(_){m.textContent="Could not contact the server.";}});</script></div></main>
+<footer class="footer"><div class="container"><a class="brand" href="/">MEDORBIT</a><p>© <span id="year"></span> MedOrbit</p></div></footer></body></html>

@@ -2,14 +2,19 @@
   "name": "medorbit",
   "version": "1.0.0",
   "private": true,
-  "description": "MEDORBIT multi-language platform starter",
-  "scripts": {
-    "start": "node backend/server.js",
-    "check": "node --check backend/server.js",
-    "test": "node --test",
-    "check:site": "node scripts/check-site.js"
-  },
+  "description": "MedOrbit education, careers and guidance platform",
   "engines": {
     "node": ">=20"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "check": "node --check backend/server.js",
+    "test": "node --test",
+    "audit:site": "python3 scripts/audit_site.py",
+    "validate:config": "node config/validate-env.js",
+    "validate:data": "python3 scripts/validate_data.py",
+    "check:secrets": "python3 scripts/check_secrets.py",
+    "check:sql": "python3 scripts/check_sql.py"
   }
 }

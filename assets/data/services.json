@@ -1,15 +1,17 @@
-{
-  "schemaVersion": 1,
-  "dataset": "services",
-  "description": "MEDORBIT service catalogue",
-  "updatedAt": "2026-10-20",
-  "sourcePolicy": "Verify factual, legal, admission, fee and deadline information against official sources before publication.",
-  "items": [],
-  "fields": [
-    "id",
-    "title",
-    "description",
-    "category",
-    "contactUrl"
-  ]
-}
+[
+  {
+    "title": "Education discovery",
+    "category": "Education",
+    "url": "/education/mbbs.html"
+  },
+  {
+    "title": "Career guidance",
+    "category": "Careers",
+    "url": "/career/guidance.html"
+  },
+  {
+    "title": "Resource library",
+    "category": "Resources",
+    "url": "/pages/resources.html"
+  }
+]

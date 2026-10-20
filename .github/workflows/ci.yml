@@ -1,10 +1,9 @@
-name: MEDORBIT CI
+name: MedOrbit CI
 
 on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -13,36 +12,36 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "20"
           cache: npm
+          cache-dependency-path: package-lock.json
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Install Node dependencies
-        run: npm ci
-
-      - name: Check backend syntax
+      - name: Check Node syntax
         run: npm run check
 
       - name: Run tests
         run: npm test
 
-      - name: Check website references
-        run: node scripts/check-links.js
+      - name: Validate environment configuration
+        run: node config/validate-env.js
 
-      - name: Check frontend search syntax
-        run: node --check assets/js/site-search.js
+      - name: Audit site links
+        run: python3 scripts/audit_site.py
 
-      - name: Validate Python starter
-        run: python backend/python/src/main.py
+      - name: Validate JSON data
+        run: python3 scripts/validate_data.py
+
+      - name: Check secrets accidentally committed
+        run: python3 scripts/check_secrets.py

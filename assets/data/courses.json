@@ -1,17 +1,26 @@
-{
-  "schemaVersion": 1,
-  "dataset": "courses",
-  "description": "Courses and course categories",
-  "updatedAt": "2026-10-20",
-  "sourcePolicy": "Verify factual, legal, admission, fee and deadline information against official sources before publication.",
-  "items": [],
-  "fields": [
-    "id",
-    "title",
-    "category",
-    "description",
-    "eligibility",
-    "duration",
-    "officialUrl"
-  ]
-}
+[
+  {
+    "id": "course-mbbs",
+    "title": "MBBS",
+    "category": "Medical",
+    "url": "/education/mbbs.html"
+  },
+  {
+    "id": "course-bds",
+    "title": "BDS",
+    "category": "Dental",
+    "url": "/education/bds.html"
+  },
+  {
+    "id": "course-paramedical",
+    "title": "Paramedical",
+    "category": "Allied Health",
+    "url": "/education/paramedical.html"
+  },
+  {
+    "id": "course-ayush",
+    "title": "AYUSH: BAMS / BUMS",
+    "category": "Healthcare",
+    "url": "/education/ayush.html"
+  }
+]
